@@ -1,7 +1,7 @@
 
 ## DevCon 2025
 
-This is a web application build using Laravel/Blade/Alpine.js for the upcoming Devcon 2025 in Mauritius 🏝️ 🇲🇺
+This is a web application built using Laravel/Blade/Alpine.js for the upcoming Devcon 2025 in Mauritius 🏝️ 🇲🇺
 
 ## Table of Contents
 
