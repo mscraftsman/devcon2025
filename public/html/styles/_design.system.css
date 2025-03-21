@@ -1,0 +1,386 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');*/
+
+html {
+    /* Font */
+    --font-family: 'Overpass', 'Segoe UI', -apple-system, BlinkMacSystemFont, Geneva, Verdana, sans-serif;
+
+    /* Primary Colors */
+    --primary-500: #fdec96;
+    --primary-600: #FFC857;
+    
+    /* Secondary Colors */
+    --secondary-300: #0e141b;
+    --secondary-400: #161b22;
+    --secondary-500: #1f242a;
+
+    /* Body Colors */
+    --body-300: #8d96a0;
+    --body-400: #8d96a0;
+    /*--body-500: #d9ede6;*/
+    --body-500: #fafafa;
+    --body-600: #bccec9;
+    
+    /* Contrast Colors */
+    --primary-contrast: #212529;
+    --secondary-contrast: #d9ede6;
+    --body-contrast: #212529;
+
+    /* Gradient Colors */
+    --gradient-highlight-stop-1: #FFDA64;
+    --gradient-highlight-stop-2: #FF4BA7;
+
+    scrollbar-color: var(--secondary-500) var(--secondary-400);
+    scrollbar-width: thin;
+}
+
+html[data-theme="dark"] .brand {
+    filter: invert(1) !important;
+}
+
+html {
+    /* Border Radius*/
+    --border-radius: 0.25rem;
+
+    /* Margins */
+    --margin-500: 5rem;
+    --margin-400: 3rem;
+    --margin-300: 2rem;
+    --margin-200: 1rem;
+    --margin-100: 0.5rem;
+
+    /* Font Sizes */
+    --fs-600: 2.15rem;
+    --fs-500: 1.625rem;
+    --fs-400: 1.375rem;
+    --fs-300: 1.25rem;
+    --fs-200: 1.15rem;
+    --fs-150: 1rem;
+    --fs-100: 1rem;
+    --fs-50: 0.65rem;
+
+    /* Line Heights */
+    --lh-600: 1.25;
+
+    min-width: 360px;
+    font-family: var(--font-family);
+    font-size: var(--fs-100);
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--body-500);
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 500px) {
+    :root {
+        /* Font Sizes */
+        --fs-600: 2.15rem;
+        --fs-550: 1.75rem;
+        --fs-500: 1.625rem;
+        --fs-400: 1.375rem;
+        --fs-300: 1.25rem;
+        --fs-200: 1.15rem;
+        --fs-150: 1rem;
+        --fs-100: 1rem;
+        --fs-50: 0.65rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        /* Font Sizes */
+        --fs-600: 3rem;
+        --fs-550: 2.85rem;
+        --fs-500: 2.4rem;
+        --fs-400: 1.9rem;
+        --fs-300: 1.5rem;
+        --fs-200: 1.25rem;
+        --fs-150: 1.10rem;
+        --fs-100: 1rem;
+        --fs-50: 0.85rem;
+    }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0;
+}
+
+h1, h1 * { 
+    font-size: var(--fs-600);
+}
+h2 {
+    font-size: var(--fs-500);
+}
+h3 {
+    font-size: var(--fs-400);
+}
+h4 {
+    font-size: var(--fs-300);
+}
+h5 {
+    font-size: var(--fs-200);
+}
+h6 {
+    font-size: var(--fs-100);
+}
+
+p {
+    font-size: var(--fs-100);
+    margin: 0;
+}
+
+small {
+    font-size: var(--fs-50);
+}
+
+/* Buttons */
+button,
+.button {
+    font-family: var(--font-family);
+
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    font-size: var(--fs-100);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    cursor: pointer;
+
+    opacity: 1;
+    transition: all 0.2s ease-out;
+}
+
+.button:hover {
+    /* transform: scale(1.025); */
+    outline: none;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    transform: scale(0.95);
+    opacity: 0.95;
+}
+
+.button.icon {
+    padding: 0.5rem;
+}
+
+.button.icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.button.small {
+    padding: 0.75rem;
+}
+
+
+.button.small.icon {
+    padding: 0.5rem;
+}
+
+.button.small.icon svg {
+    width: 1.313rem;
+    height: 1.313rem;
+}
+
+/* Primary Styles */
+/* - Primary Background Styles - */
+.bg-primary, .bg-primary-500 {
+    background-color: var(--primary-500);
+    color: var(--primary-contrast);
+}
+
+.bg-primary-600 {
+    background-color: var(--primary-600);
+    color: var(--primary-contrast);
+}
+
+/* - Primary Button Styles - */
+.button.primary, .button.primary-500 {
+    border: 2px solid var(--primary-500);
+    background-color: var(--primary-500);
+    color: var(--primary-contrast);
+}
+
+    /* -- Primary Button Hover & Active Styles -- */
+    .button.primary:hover, .button.primary-500:hover,
+    .button.primary:active, .button.primary-500:active {
+        border: 2px solid var(--primary-600);
+        background-color: var(--primary-600);
+        color: var(--primary-contrast);
+    }
+
+/* - Primary Text Styles - */
+.primary, .primary-500 {
+    color: var(--primary-500);
+}
+
+.primary-600 {
+    color: var(--primary-600);
+}
+
+/* Secondary Styles */
+/* - Secondary Background Styles - */
+.bg-secondary-300 {
+    background-color: var(--secondary-300);
+    color: var(--secondary-contrast);
+}
+
+.bg-secondary-400 {
+    background-color: var(--secondary-400);
+    color: var(--secondary-contrast);
+}
+
+.bg-secondary-500, .bg-secondary {
+    background-color: var(--secondary-500);
+    color: var(--secondary-contrast);
+}
+
+/* - Secondary Button Styles - */
+.button.secondary-300 {
+    border: 2px solid var(--secondary-300);
+    background-color: var(--secondary-300);
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-400 {
+    border: 2px solid var(--secondary-400);
+    background-color: var(--secondary-400);
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-300:hover,
+.button.secondary-300:active {
+    border: 2px solid var(--secondary-400);
+    background-color: var(--secondary-400);
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-400:hover,
+.button.secondary-400:active {
+    border: 2px solid var(--secondary-500);
+    background-color: var(--secondary-500);
+    color: var(--secondary-contrast);
+}
+
+/* - Secondary Button Outline Styles - */
+.button.secondary-outline-300 {
+    border: 2px solid var(--secondary-300);
+    background-color: transparent;
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-outline-400 {
+    border: 2px solid var(--secondary-400);
+    background-color: transparent;
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-outline-500 {
+    border: 2px solid var(--secondary-500);
+    background-color: transparent;
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-outline-300:hover,
+.button.secondary-outline-300:active {
+    border: 2px solid var(--secondary-300);
+    background-color: var(--secondary-300);
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-outline-400:hover,
+.button.secondary-outline-400:active {
+    border: 2px solid var(--secondary-400);
+    background-color: var(--secondary-400);
+    color: var(--secondary-contrast);
+}
+
+.button.secondary-outline-500:hover,
+.button.secondary-outline-500:active {
+    border: 2px solid var(--secondary-500);
+    background-color: var(--secondary-500);
+    color: var(--secondary-contrast);
+}
+
+
+/* - Secondary Text Styles - */
+.secondary-300 {
+    color: var(--secondary-300);
+}
+
+.secondary-400 {
+    color: var(--secondary-400);
+}
+
+.secondary, .secondary-500 {
+    color: var(--secondary-500);
+}
+
+/* Body Styles */
+.bg-body-400 {
+    background-color: var(--body-400);
+    color: var(--body-contrast);
+}
+
+.bg-body, .bg-body-500 {
+    background-color: var(--body-500);
+    color: var(--body-contrast);
+}
+
+.body-400 {
+    color: var(--body-400);
+}
+
+.body, .body-500 {
+    color: var(--body-500);
+}
+
+.contrast {
+    color: var(--body-contrast);
+}
+
+/* Margins */
+.mt-5 { margin-top: var(--margin-500); }
+.mt-4 { margin-top: var(--margin-400); }
+.mt-3 { margin-top: var(--margin-300); }
+.mt-2 { margin-top: var(--margin-200); }
+.mt-1 { margin-top: var(--margin-100); }
+
+.mb-5 { margin-bottom: var(--margin-500); }
+.mb-4 { margin-bottom: var(--margin-400); }
+.mb-3 { margin-bottom: var(--margin-300); }
+.mb-2 { margin-bottom: var(--margin-200); }
+.mb-1 { margin-bottom: var(--margin-100); }
+
+/* Other Stuff */
+input,
+input:hover,
+input:focus,
+input:active {
+    outline: none;
+    border: none;
+    font-family: var(--font-family);
+    font-size: var(--fs-100);
+}
+
+p {
+    font-weight: lighter;
+}
+
+p.regular {
+    font-weight: normal;
+}
