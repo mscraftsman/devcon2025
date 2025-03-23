@@ -41,7 +41,7 @@
                 <section class="social">
                     <ul class="links">
                         <li>
-                            <a class="button small icon secondary-400" href="https://facebook.com" title="Facebook">
+                            <a class="button small icon secondary-400" href="https://www.facebook.com/MauritiusSoftwareCraftsmanshipCommunity" title="Facebook" target="_blank">
                                 <svg class="svg" fill="currentColor" width="100%" height="100%" viewBox="0 0 32 32"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -50,7 +50,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="button small icon secondary-400" href="https://instagram.com" title="Instagram">
+                            <a class="button small icon secondary-400" href="https://www.instagram.com/mscc_mauritius/" title="Instagram" target="_blank">
                                 <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -60,7 +60,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="button small icon secondary-400" href="https://linkedin.com" title="LinkedIn">
+                            <a class="button small icon secondary-400" href="https://www.linkedin.com/company/mscraftsman/" title="LinkedIn" target="_blank">
                                 <svg fill="currentColor" width="100%" height="100%" viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -69,8 +69,8 @@
                             </a>
                         </li>
                         <li>
-                            <a class="button small icon secondary-400" href="https://x.com"
-                                title="X (Formerly Twitter)">
+                            <a class="button small icon secondary-400" href="https://x.com/MSCraftsman"
+                                title="X (Formerly Twitter)" target="_blank">
                                 <svg fill="currentColor" width="100%" height="100%" role="img" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -80,7 +80,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="button small icon secondary-400" href="https://github.com" title="Github">
+                            <a class="button small icon secondary-400" href="https://github.com/mscraftsman" title="Github" target="_blank">
                                 <svg fill="currentColor" width="100%" height="100%" viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
