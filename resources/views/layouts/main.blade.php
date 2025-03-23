@@ -94,6 +94,10 @@
         </nav>
 
         @yield('content')
+
+            <footer class="site-footer">
+                <p data-easter-egg>MSCC — DEVELOPERS CONFERENCE 2025</p>
+            </footer>
     </main>
 </body>
 
