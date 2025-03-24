@@ -26,6 +26,7 @@
         rel="stylesheet">
 
     <link href="/css/style.css" rel="stylesheet" />
+    @vite('resources/css/app.css')
 </head>
 
 <body>
