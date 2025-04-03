@@ -2,35 +2,46 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-    width: 100%;
     gap: 1rem;
 }
 
     .metrics-items .item {
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: end;
+        gap: 0.25rem;
+        min-width: calc(50% - 3rem);
 
-        flex: 1;
-
-        background: var(--secondary-400);
-        color: var(--secondary-contrast);
-        padding: 1.25rem;
+        padding: 0.25rem;
         border-radius: 0.5rem;
-        min-width: 100px;
-    }
-
-    .metrics-items .item[data-featured-item] {
-        background: var(--secondary-500);
     }
 
         .metrics-items .item .title {
             margin: 0;
+            font-size: var(--fs-normal);
+            font-weight: 500;
+            margin: 1.5rem 0 0;
+            color: var(--dark-slate-blue);
         }
 
-        .metrics-items .item .title { margin: 1.5rem 0 0; }
         .metrics-items .item .caption {
             margin: 0;
+            font-size: var(--fs-micro);
+            color: var(--slate-gray);
         }
+
+@media (min-width: 560px) {
+    .metrics-items .item {
+        padding: 1.25rem;
+        min-width: unset;
+    }
+
+    .metrics-items .item .title {
+        font-size: var(--fs-big);
+    }
+
+    .metrics-items .item .caption {
+        font-size: var(--fs-tiny);
+    }
+}
