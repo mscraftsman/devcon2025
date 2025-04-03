@@ -5,10 +5,6 @@
     gap: 1rem;
 }
 
-    .calendar .heading {
-        margin-top: 1rem;
-    }
-
     .calendar .links {
         display: flex;
         justify-content: center;
@@ -23,26 +19,34 @@
             justify-content: center;
             width: 1.75rem;
             height: 1.75rem;
-            padding: 0.5rem;
+            padding: 0.75rem;
             border-radius: 0.5rem;
+            background: #254d5910;
         }
 
         .calendar .links a:hover {
-            background: var(--body-500);
+            background: #254d5920;
+        }
+
+        .calendar .links a img {
+            width: 100%;
+            height: 100%;
         }
 
     .calendar .with-divider {
         position: relative;
-        padding-top: 1.5rem;
-        margin-top: 0.5rem;
+        padding-top: 2.5rem;
+        margin-top: 1.5rem;
         
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
     .calendar .with-divider::before {
-        content: ' ';
+        content: '';
        
         position: absolute;
         top: 0;
@@ -50,8 +54,8 @@
         width: 100%;
 
         width: 2rem;
-        height: 2px;
-        background: var(--body-500);
+        height: 4px;
+        background: var(--slate-gray);
         border-radius: 2px;
         opacity: 0.75;
     }

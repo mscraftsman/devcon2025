@@ -1,37 +1,23 @@
 .navigation {
-    /*background: var(--primary-500);*/
     max-width: var(--max-width);
-    border-end-start-radius: var(--default-border-radius);
-    border-end-end-radius: var(--default-border-radius);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    position: absolute;
+    z-index: 10;
 }
 
     .navigation .container {
         position: relative;
+        background: var(--ultramarine-blue);
+        border-radius: 5px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
-        margin: 0.75rem 1rem;
-        width: 100%;
+        margin: 0.75rem;
+        padding: 0.5rem;
     }
-
-        .navigation .container .brand {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-            .navigation .container .brand a {
-                line-height: 0;
-            }
-
-            .navigation .container .brand img {
-                max-height: 1.8rem;
-            }
 
         .navigation .container .social .links {
             list-style: none;
@@ -41,10 +27,21 @@
             gap: 0.5rem;
         }
 
+        .navigation .container .social .links a {
+            display: block;
+            padding: 0.5rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 0.25rem;
+        }
+        
+        .navigation .container .social .links a:hover {
+            background: #FFFFFF25;
+        }
+
 .content {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
     flex: 1;
     margin: 0 0.75rem;
 }
