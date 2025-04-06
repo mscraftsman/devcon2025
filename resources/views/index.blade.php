@@ -130,7 +130,7 @@
                     believing in our mission and standing with us.
                 </p>
 
-                <div class="mt-6">
+                <div class="mt-8">
                     <h2 class="text-xl font-bold">Count every second until the event</h2>
                     <div class="mt-2 flex flex-row gap-4">
                         <div class="count-wrap">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
 
-                <div class="mt-6">
+                <div class="mt-4">
                     <p class="font-medium">Save the date in your calendar!</p>
 
                     <div class="mt-4 flex flex-row gap-4">
@@ -204,7 +204,7 @@
 
                     <div class="mt-4">
                         <p class="font-medium">Did not find an option for your calendar? Download the file and import it manually.</p>
-                        <div class="mt-4">
+                        <div class="mt-5">
                             <a href="/calendar/devcon.ics" class="mt-4 p-3 bg-yellow-400 hover:bg-yellow-500 transition ease-in-out duration-500 rounded-md font-medium" download>Download Calendar File</a>
                         </div>
                     </div>
@@ -259,6 +259,15 @@
 
             </div>
         </div>
+    </section>
+
+    {{--  What to expect  --}}
+    <section class="mt-16 max-w-4xl mx-auto">
+        <h2 class="text-5xl font-devcon text-center">What to expect?</h2>
+        <p class="mt-4 text-center text-xl">
+            Learn about industry trends, best practices and new innovations through sessions and workshops
+            when you are not having fun with all the entertainment and activities.
+        </p>
     </section>
 
     <script src="/scripts/countdown.js"></script>
