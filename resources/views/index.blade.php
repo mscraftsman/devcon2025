@@ -78,8 +78,8 @@
         <div class="absolute top-6 lg:top-1/5 left-1/2 transform -translate-x-1/2">
             <img src="/images/hero-mscc-logo.png" alt="MSCC Logo" class="mx-auto mb-2 lg:mb-4 w-[100px] lg:w-[250px]" />
             <img src="/images/hero-devcon.png" alt="MSCC Logo" class="w-[175px] lg:w-[650px]" />
-            <h2 class="font-devcon text-md lg:text-3xl text-center text-white">24, 25 & 26 July 2025</h2>
-            <p class="font-devcon text-sm lg:text-3xl text-center text-white">Voilà Hotel, Bagatelle</p>
+            <h2 class="mt-2 font-devcon text-md lg:text-3xl text-center text-white">24, 25 & 26 July</h2>
+            <p class="mt-1 font-devcon text-sm lg:text-3xl text-center text-white">Voilà Hotel, Bagatelle</p>
         </div>
 
     </section>
@@ -121,15 +121,97 @@
     </section>
 
     <section class="mt-4 lg:mt-8">
-        <div class="flex flex-col lg:flex-row gap-6 max-w-7xl mx-auto p-6">
-            <div class="lg:w-[600px]">
+        <div class="flex flex-col lg:flex-row max-w-7xl mx-auto gap-6 p-6">
+            <div class="lg:w-[640px]">
                 <h2 class="text-3xl font-black font-devcon">Sponsors & Partners</h2>
                 <p class="mt-2 font-medium">
                     We extend our heartfelt gratitude to all our sponsors and partners for their
                     unwavering support and commitment to the Developers Conference. Thank you for
                     believing in our mission and standing with us.
                 </p>
+
+                <div class="mt-6">
+                    <h2 class="text-xl font-bold">Count every second until the event</h2>
+                    <div class="mt-2 flex flex-row gap-4">
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="days">137</p>
+                                <p class="text-sm font-thin text-gray-600">Days</p>
+                            </div>
+                        </div>
+
+                        <span class="text-2xl font-black">:</span>
+
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="hours">18</p>
+                                <p class="text-sm font-thin text-gray-600">Hours</p>
+                            </div>
+                        </div>
+
+                        <span class="text-2xl font-black">:</span>
+
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="minutes">13</p>
+                                <p class="text-sm font-thin text-gray-600">Minutes</p>
+                            </div>
+                        </div>
+
+                        <span class="text-2xl font-black">:</span>
+
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="seconds">43</p>
+                                <p class="text-sm font-thin text-gray-600">Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <p class="font-medium">Save the date in your calendar!</p>
+
+                    <div class="mt-4 flex flex-row gap-4">
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250724%2F20250727&details=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle&text=Developers%20Conference%202025">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/google.svg" alt="Google" />
+                        </a>
+
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://outlook.live.com/calendar/0/action/compose?allday=true&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-07-24T04%3A00%3A00%2B00%3A00&enddt=2025-07-27T13%3A00%3A00%2B00%3A00&subject=Developers%20Conference%202025&body=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/outlook.svg" alt="Outlook" />
+                        </a>
+
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://outlook.office.com/calendar/action/compose?allday=true&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-07-24T04%3A00%3A00%2B00%3A00&enddt=2025-07-27T13%3A00%3A00%2B00%3A00&subject=Developers%20Conference%202025&body=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/office.svg" alt="Office 365" />
+                        </a>
+
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://calendar.yahoo.com/?desc=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&dur=allday&in_loc=Voila%20Hotel%20Bagatelle&et=20250727&st=20250724&title=Developers%20Conference%202025&v=60">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/yahoo.svg" alt="Yahoo" />
+                        </a>
+                    </div>
+
+                    <div class="mt-4">
+                        <p class="font-medium">Did not find an option for your calendar? Download the file and import it manually.</p>
+                        <div class="mt-4">
+                            <a href="/calendar/devcon.ics" class="mt-4 p-3 bg-yellow-400 hover:bg-yellow-500 transition ease-in-out duration-500 rounded-md font-medium" download>Download Calendar File</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
             <div class="w-full lg:border-l-1 lg:border-gray-200 lg:pl-6">
                 <div class="text-3xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Gold
                     <span><img src="/images/emojis/gold.svg" class="h-10"></span>

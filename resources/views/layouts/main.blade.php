@@ -26,6 +26,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap" rel="stylesheet">
 
+{{--    <link href="/styles/style.css" rel="stylesheet" />--}}
+
     @vite('resources/css/app.css')
 </head>
 
@@ -42,4 +44,6 @@
             Mauritius Software Craftsmanship Community
         </div>
     </footer>
+
+    <script src="./scripts/countdown.js"></script>
 </body>
