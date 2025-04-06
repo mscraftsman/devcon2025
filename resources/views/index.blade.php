@@ -263,11 +263,98 @@
 
     {{--  What to expect  --}}
     <section class="mt-16 max-w-4xl mx-auto">
-        <h2 class="text-5xl font-devcon text-center">What to expect?</h2>
-        <p class="mt-4 text-center text-xl">
+        <h2 class="text-4xl lg:text-5xl font-devcon text-center">What to expect?</h2>
+        <p class="mt-2 lg:mt-4 text-center text-lg lg:text-xl px-4 lg:px-0">
             Learn about industry trends, best practices and new innovations through sessions and workshops
             when you are not having fun with all the entertainment and activities.
         </p>
+    </section>
+
+    {{--  Gallery  --}}
+    <section class="mt-8 max-w-7xl mx-auto px-4 lg:px-0">
+        <div class="grid grid-col-1 gap-4 lg:grid-cols-2">
+            <div><img src="/images/gallery/1.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/2.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+        <div class="mt-4 grid grid-col-1 gap-4 lg:grid-cols-3">
+            <div><img src="/images/gallery/3.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/4.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/5.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+        <div class="mt-4 grid grid-col-1 gap-4 lg:grid-cols-2">
+            <div><img src="/images/gallery/1a.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/1c.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+        <div class="mt-4 grid grid-col-1 gap-4 lg:grid-cols-4">
+            <div><img src="/images/gallery/6.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/7.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/8.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/9.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+    </section>
+
+    <section class="mt-10 max-w-7xl mx-auto px-4 lg:px-0">
+        <div class="grid grid-col-1 lg:grid-cols-3 gap-6">
+            <div>
+                <img src="/images/emojis/palette.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Workshops</h3>
+                <p class="text-lg">
+                    Led by industry experts, these workshops offer a unique opportunity to gain
+                    practical skills and insights, making them a valuable experience for both
+                    beginners and seasoned professionals.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/bullseye.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Panel Discussions</h3>
+                <p class="text-lg">
+                    The panel discussions bring together thought leaders and innovators to explore
+                    current trends, challenges, and the future of technology. These engaging sessions
+                    provide a platform for diverse perspectives and lively debates, sparking new ideas
+                    and inspiring our community.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/performing-arts.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Speaker Sessions</h3>
+                <p class="text-lg">
+                    DevCon sessions are packed with knowledge-sharing and inspiration, featuring local
+                    and international speakers. From cutting-edge innovations to practical applications,
+                    these talks cover a wide range of topics, ensuring there's something for everyone,
+                    whether you're a developer, designer, or entrepreneur.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/bowling.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Friendly Atmosphere</h3>
+                <p class="text-lg">
+                    DevCon is known for its warm and inclusive atmosphere. Whether you are a first-time
+                    attendee or a conference veteran, you'll feel right at home. Our community is supportive
+                    and eager to connect, making DevCon a place where lasting professional relationships are
+                    formed.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/medal.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Activities</h3>
+                <p class="text-lg">
+                    Beyond the sessions and discussions, DevCon offers a range of cool activities that
+                    add an extra layer of fun to the conference. From interactive games to creative
+                    challenges, these activities are designed to engage and entertain, making DevCon
+                    a memorable experience for all attendees.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/necktie.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Networking</h3>
+                <p class="text-lg">
+                    The networking hour is an 'invitation-only' event, offering a relaxed environment
+                    to connect with peers, mentors, and industry leaders. It's the perfect opportunity
+                    to exchange ideas, collaborate on projects, and expand your professional network in
+                    a casual, friendly setting.
+                </p>
+            </div>
+        </div>
     </section>
 
     <script src="/scripts/countdown.js"></script>
