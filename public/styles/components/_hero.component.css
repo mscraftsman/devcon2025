@@ -1,0 +1,44 @@
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 10rem;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #8026ff, #09a8fe, #FFF);
+}
+
+    .hero h1 {
+        --text-stroke-color: #FFF;
+        margin: 0 1rem 2rem;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: -2px -2px 0 var(--text-stroke-color), 2px -2px 0 var(--text-stroke-color), -2px 2px 0 var(--text-stroke-color), 2px 2px 0 var(--text-stroke-color);
+    }
+
+    .hero h1 span,
+    .hero h2 span {
+        line-height: 1;
+        display: block;
+        text-align: center;
+    }
+    .hero h2 span {
+        line-height: 1.2
+    }
+
+    .hero .overlay {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero .hero-body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        animation: zoom-in-zoom-out 500ms ease-in-out;
+        z-index: 1;
+        width: 100%;
+    }
