@@ -1,421 +1,361 @@
 @extends('layouts.main')
 
 @section('content')
-<section class="content">
-    <section class="hero">
-        <div class="hero-body">
-            <h1 class="title contrast">
-                <span class="inline-text">Devel</span>
-                <span class="emoji-inline">
-                    <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Smilies/Face with Open Mouth.png"
-                        alt="O">
-                </span>
+    <section class="relative shadow-lg">
+        <div class="inset-0 z-0 bg-gradient-to-r from-[#9F00FF] to-[#00B0FF]">
+            <div class="">
+                <img src="/images/hero-emojis.png" class="w-full h-auto shadow-lg" />
+            </div>
+        </div>
 
-                <span class="inline-text">pers C</span>
-                <span class="emoji-inline">
-                    <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Smilies/Nerd Face.png"
-                        alt="O">
-                </span>
-                <span class="inline-text">nference 2025</span>
-            </h1>
-
-            <h3 class="contrast">Voila Hotel, Bagatelle</h3>
-
-            <!-- <div class="cta-container">
-                <a class="button cta primary" href="https://sessionize.com" title="Register">
+        <!-- Overlay buttons -->
+        <div class="absolute top-6 left-1/2 transform -translate-x-1/2 space-x-4 hidden lg:block">
+            <div class="flex space-x-4">
+                <a
+                    href="#agenda"
+                    class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition"
+                >
+                    Agenda
+                </a>
+                <a
+                    href="#register"
+                    class="px-4 py-2 bg-orange-500 text-white rounded-lg shadow hover:bg-orange-600 transition"
+                >
                     Register
                 </a>
-            </div> -->
+
+                <ul class="ml-10 flex flex-row items-center space-x-4">
+                    <li>
+                        <a href="https://www.facebook.com/MauritiusSoftwareCraftsmanshipCommunity" title="Facebook"
+                           target="_blank">
+                            <svg role="img" class="h-6 w-6 fill-white" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg"><title>Facebook</title>
+                                <path
+                                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mscc_mauritius/" title="Instagram" target="_blank">
+                            <svg role="img" class="h-6 w-6 fill-white" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg"><title>Instagram</title>
+                                <path
+                                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/MSCraftsman" title="X" target="_blank">
+                            <svg role="img" class="h-6 w-6 fill-white" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg"><title>X</title>
+                                <path
+                                    d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/groups/5033639/" title="LinkedIn" target="_blank">
+                            <svg role="img" class="h-6 w-6 fill-white" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title>
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mscraftsman" title="GitHub" target="_blank">
+                            <svg role="img" class="h-6 w-6 fill-white" viewBox="0 0 24 24"
+                                 xmlns="http://www.w3.org/2000/svg"><title>GitHub</title>
+                                <path
+                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <div class="countdown-widget">
-            <h5>
-                <span>Count </span>
-                <span class="highlight">Every Second</span>
-                <span> Until The Event</span>
-            </h5>
-            <div class="countdown-container">
+        <div class="absolute top-6 lg:top-1/5 left-1/2 transform -translate-x-1/2">
+            <img src="/images/hero-mscc-logo.png" alt="MSCC Logo" class="mx-auto mb-2 lg:mb-4 w-[100px] lg:w-[250px]" />
+            <img src="/images/hero-devcon.png" alt="MSCC Logo" class="w-[175px] lg:w-[650px]" />
+            <h2 class="mt-2 font-devcon text-md lg:text-3xl text-center text-white">24, 25 & 26 July</h2>
+            <p class="mt-1 font-devcon text-sm lg:text-3xl text-center text-white">Voilà Hotel, Bagatelle</p>
+        </div>
 
-                <div class="count-wrap">
-                    <div class="ticker">
-                        <p id="days">137</p>
-                        <span class="caption">Days</span>
-                    </div>
-                </div>
-                <div class="count-wrap">
-                    <div class="ticker">
-                        <p id="hours">18</p>
-                        <span class="caption">Hours</span>
-                    </div>
-                </div>
-                <div class="count-wrap">
-                    <div class="ticker">
-                        <p id="minutes">13</p>
-                        <span class="caption">Minutes</span>
-                    </div>
-                </div>
-                <div class="count-wrap">
-                    <div class="ticker">
-                        <p id="seconds">43</p>
-                        <span class="caption">Seconds</span>
-                    </div>
-                </div>
-            </div>
+    </section>
 
-            <section class="calendar">
-                <p class="heading regular">Save the date in your calendar!</p>
+    {{--  Sponsors & Partners  --}}
+    <section class="hidden">
+        <div class="mt-6 text-4xl text-center font-black">Sponsors & Partners</div>
 
-                <div class="links">
-                    <a title="Save Event in my Calendar" class="button secondary-outline-500"
-                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250724%2F20250726&details=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2Centhusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle&text=Developers%20Conference%202025">
-                        <svg width="200" height="200" viewBox="0 0 200 200" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_538_222)">
-                                <g clip-path="url(#clip1_538_222)">
-                                    <path
-                                        d="M152.632 47.3685L105.264 42.1055L47.3695 47.3685L42.1055 100L47.3685 152.632L100 159.211L152.632 152.632L157.895 98.6855L152.632 47.3685Z"
-                                        fill="white" />
-                                    <path
-                                        d="M68.9614 129.025C65.0274 126.367 62.3034 122.486 60.8164 117.354L69.9484 113.591C70.7774 116.749 72.2244 119.196 74.2904 120.933C76.3434 122.67 78.8434 123.525 81.7644 123.525C84.7514 123.525 87.3174 122.617 89.4614 120.801C91.6054 118.985 92.6854 116.669 92.6854 113.867C92.6854 110.999 91.5534 108.656 89.2904 106.841C87.0274 105.026 84.1854 104.117 80.7904 104.117H75.5144V95.0783H80.2504C83.1714 95.0783 85.6324 94.2893 87.6324 92.7103C89.6324 91.1313 90.6324 88.9733 90.6324 86.2233C90.6324 83.7763 89.7374 81.8283 87.9484 80.3683C86.1594 78.9083 83.8954 78.1713 81.1454 78.1713C78.4614 78.1713 76.3294 78.8823 74.7504 80.3163C73.1714 81.7503 72.0264 83.5133 71.3034 85.5923L62.2644 81.8293C63.4614 78.4343 65.6594 75.4343 68.8824 72.8423C72.1064 70.2503 76.2244 68.9473 81.2244 68.9473C84.9214 68.9473 88.2504 69.6583 91.1984 71.0923C94.1454 72.5263 96.4614 74.5133 98.1324 77.0393C99.8034 79.5783 100.632 82.4213 100.632 85.5783C100.632 88.8023 99.8564 91.5253 98.3034 93.7623C96.7504 95.9993 94.8424 97.7093 92.5794 98.9073V99.4463C95.5664 100.696 98.0004 102.604 99.9214 105.17C101.829 107.736 102.789 110.802 102.789 114.381C102.789 117.96 101.881 121.157 100.065 123.96C98.2494 126.763 95.7364 128.973 92.5524 130.578C89.3554 132.183 85.7634 132.999 81.7764 132.999C77.1584 133.012 72.8954 131.683 68.9614 129.025Z"
-                                        fill="#1A73E8" />
-                                    <path
-                                        d="M125.001 83.7118L115.027 90.9618L110.014 83.3568L128.001 70.3828H134.896V131.58H125.001V83.7118Z"
-                                        fill="#1A73E8" />
-                                    <path
-                                        d="M152.631 199.999L199.999 152.631L176.315 142.105L152.631 152.631L142.105 176.315L152.631 199.999Z"
-                                        fill="#EA4335" />
-                                    <path
-                                        d="M36.8418 176.317L47.3678 200.001H152.631V152.633H47.3678L36.8418 176.317Z"
-                                        fill="#34A853" />
-                                    <path
-                                        d="M15.789 0C7.066 0 0 7.066 0 15.789V152.631L23.684 163.157L47.368 152.631V47.368H152.631L163.157 23.684L152.632 0H15.789Z"
-                                        fill="#4285F4" />
-                                    <path
-                                        d="M0 152.633V184.212C0 192.936 7.066 200.001 15.789 200.001H47.368V152.633H0Z"
-                                        fill="#188038" />
-                                    <path
-                                        d="M152.633 47.3678V152.631H200.001V47.3678L176.317 36.8418L152.633 47.3678Z"
-                                        fill="#FBBC04" />
-                                    <path
-                                        d="M200.001 47.368V15.789C200.001 7.065 192.935 0 184.212 0H152.633V47.368H200.001Z"
-                                        fill="#1967D2" />
-                                </g>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_538_222">
-                                    <rect width="200" height="200" fill="white" />
-                                </clipPath>
-                                <clipPath id="clip1_538_222">
-                                    <rect width="200" height="200" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
+        <div class="mt-6 text-3xl text-center font-black">Gold</div>
+        <div class="mt-4 max-w-4xl mx-auto grid place-items-center">
+            <img src="/images/sponsors/publicis.png" alt="Publicis Global Delivery" class="h-[120px]" />
+        </div>
 
-                    </a>
+        <div class="mt-6 text-3xl text-center font-black">Bronze</div>
+        <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center gap-8">
+            <img src="/images/sponsors/clarity.png" alt="Clarity" class="h-[50px]" />
+            <img src="/images/sponsors/cloudsure.png" alt="Cloudsure" class="h-[100px]" />
+        </div>
 
-                    <a title="Save Event in my Calendar" class="button secondary-outline-500"
-                        href="https://outlook.live.com/calendar/0/action/compose?allday=true&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-07-24T04%3A00%3A00%2B00%3A00&enddt=2025-07-26T13%3A00%3A00%2B00%3A00&subject=Developers%20Conference%202025&body=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2Centhusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle">
-                        <svg width="200" height="200" viewBox="0 0 200 200" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_538_199)">
-                                <path
-                                    d="M199.999 104.673C200.01 103.11 199.202 101.654 197.869 100.836H197.845L197.762 100.79L128.459 59.7665C128.16 59.5644 127.849 59.3796 127.529 59.2131C124.853 57.8326 121.675 57.8326 118.999 59.2131C118.678 59.3797 118.368 59.5644 118.068 59.7665L48.7664 100.79L48.6827 100.836C46.5646 102.153 45.9153 104.938 47.2324 107.056C47.6205 107.681 48.1551 108.2 48.7897 108.571L118.092 149.594C118.392 149.795 118.703 149.98 119.022 150.148C121.698 151.528 124.877 151.528 127.552 150.148C127.872 149.98 128.182 149.795 128.483 149.594L197.785 108.571C199.169 107.764 200.015 106.276 199.999 104.673Z"
-                                    fill="#0A2767" />
-                                <path
-                                    d="M56.8473 77.2837H102.326V118.972H56.8473V77.2837ZM190.698 34.907V15.8372C190.808 11.0693 187.034 7.11425 182.266 7H64.2474C59.4795 7.11425 55.7056 11.0693 55.8148 15.8372V34.907L125.582 53.5116L190.698 34.907Z"
-                                    fill="#0364B8" />
-                                <path d="M55.8145 34.9062H102.326V76.7667H55.8145V34.9062Z" fill="#0078D4" />
-                                <path
-                                    d="M148.838 34.9062H102.326V76.7667L148.838 118.627H190.698V76.7667L148.838 34.9062Z"
-                                    fill="#28A8EA" />
-                                <path d="M102.326 76.7676H148.838V118.628H102.326V76.7676Z" fill="#0078D4" />
-                                <path d="M102.326 118.627H148.838V160.487H102.326V118.627Z" fill="#0364B8" />
-                                <path d="M56.8457 118.973H102.325V156.87H56.8457V118.973Z" fill="#14447D" />
-                                <path d="M148.838 118.627H190.698V160.487H148.838V118.627Z" fill="#0078D4" />
-                                <path
-                                    d="M197.87 108.316L197.781 108.362L128.479 147.339C128.177 147.525 127.87 147.702 127.549 147.86C126.372 148.42 125.093 148.737 123.791 148.79L120.005 146.576C119.685 146.416 119.374 146.237 119.074 146.041L48.8419 105.958H48.8094L46.5117 104.674V183.576C46.5475 188.84 50.8428 193.079 56.107 193.046H190.553C190.632 193.046 190.702 193.009 190.786 193.009C191.898 192.938 192.994 192.709 194.042 192.33C194.494 192.138 194.931 191.911 195.349 191.651C195.66 191.474 196.195 191.088 196.195 191.088C198.578 189.325 199.988 186.54 200 183.576V104.674C199.998 106.183 199.184 107.575 197.87 108.316Z"
-                                    fill="url(#paint0_linear_538_199)" />
-                                <path opacity="0.5"
-                                    d="M196.28 104.363V109.2L123.815 159.093L48.7915 105.991C48.7915 105.965 48.7707 105.944 48.745 105.944L41.8613 101.804V98.3161L44.6986 98.2695L50.6985 101.711L50.838 101.758L51.3496 102.084C51.3496 102.084 121.861 142.316 122.047 142.409L124.745 143.99C124.977 143.897 125.21 143.804 125.489 143.711C125.629 143.618 195.489 104.316 195.489 104.316L196.28 104.363Z"
-                                    fill="#0A2767" />
-                                <path
-                                    d="M197.87 108.316L197.781 108.367L128.479 147.344C128.177 147.53 127.87 147.706 127.549 147.864C124.857 149.179 121.71 149.179 119.018 147.864C118.7 147.707 118.389 147.533 118.088 147.344L48.7861 108.367L48.7024 108.316C47.3644 107.59 46.5256 106.196 46.5117 104.674V183.576C46.545 188.839 50.8388 193.079 56.102 193.046C56.102 193.046 56.1022 193.046 56.1024 193.046H190.409C195.673 193.079 199.966 188.84 200 183.577C200 183.577 200 183.576 200 183.576V104.674C199.998 106.183 199.184 107.575 197.87 108.316Z"
-                                    fill="#1490DF" />
-                                <path opacity="0.1"
-                                    d="M129.488 146.768L128.451 147.349C128.151 147.54 127.84 147.716 127.521 147.875C126.378 148.435 125.136 148.764 123.865 148.842L150.233 180.023L196.228 191.107C197.488 190.155 198.491 188.903 199.144 187.465L129.488 146.768Z"
-                                    fill="black" />
-                                <path opacity="0.05"
-                                    d="M134.186 144.125L128.451 147.348C128.151 147.54 127.84 147.715 127.521 147.874C126.378 148.435 125.136 148.764 123.865 148.841L136.219 182.902L196.242 191.092C198.607 189.317 199.999 186.533 200 183.576V182.557L134.186 144.125Z"
-                                    fill="black" />
-                                <path
-                                    d="M56.2326 193.046H190.395C192.46 193.056 194.473 192.404 196.139 191.185L120 146.585C119.68 146.425 119.369 146.246 119.07 146.051L48.8372 105.967H48.8047L46.5117 104.674V183.306C46.5065 188.68 50.8587 193.041 56.2326 193.046V193.046Z"
-                                    fill="#28A8EA" />
-                                <path opacity="0.1"
-                                    d="M111.628 52.7345V151.944C111.62 155.422 109.505 158.549 106.279 159.851C105.28 160.28 104.204 160.502 103.116 160.502H46.5117V48.8601H55.8141V44.209H103.116C107.815 44.2268 111.618 48.0357 111.628 52.7345Z"
-                                    fill="black" />
-                                <path opacity="0.2"
-                                    d="M106.977 57.3853V156.594C106.989 157.718 106.75 158.83 106.279 159.85C104.987 163.034 101.901 165.123 98.4652 165.139H46.5117V48.8598H98.4652C99.8148 48.8462 101.145 49.1829 102.326 49.8366C105.177 51.273 106.976 54.1928 106.977 57.3853Z"
-                                    fill="black" />
-                                <path opacity="0.2"
-                                    d="M106.977 57.3853V147.292C106.954 151.989 103.162 155.796 98.4653 155.836H46.5117V48.8598H98.4652C99.8148 48.8462 101.145 49.1829 102.326 49.8366C105.177 51.273 106.976 54.1928 106.977 57.3853Z"
-                                    fill="black" />
-                                <path opacity="0.2"
-                                    d="M102.326 57.3869V147.294C102.321 151.998 98.5179 155.815 93.8141 155.838H46.5117V48.8613H93.814C98.5174 48.8638 102.328 52.6788 102.326 57.3823C102.326 57.3838 102.326 57.3853 102.326 57.3869Z"
-                                    fill="black" />
-                                <path
-                                    d="M8.52555 48.8613H93.7999C98.5085 48.8613 102.325 52.6784 102.325 57.3869V142.661C102.325 147.37 98.5085 151.187 93.7999 151.187H8.52555C3.81697 151.187 0 147.37 0 142.661V57.3869C0 52.6784 3.81708 48.8613 8.52555 48.8613Z"
-                                    fill="url(#paint1_linear_538_199)" />
-                                <path
-                                    d="M26.6465 84.6181C28.7477 80.1412 32.1394 76.3947 36.3861 73.86C41.089 71.1675 46.4436 69.8253 51.8605 69.9809C56.881 69.872 61.835 71.1447 66.1814 73.6599C70.2679 76.097 73.5592 79.6677 75.6558 83.939C77.939 88.6455 79.0769 93.8251 78.9768 99.0553C79.0874 104.521 77.9166 109.937 75.5581 114.869C73.4117 119.293 70.016 122.991 65.7907 125.506C61.2768 128.099 56.1388 129.405 50.9349 129.283C45.8071 129.407 40.7439 128.12 36.2977 125.562C32.1758 123.122 28.8432 119.547 26.6977 115.264C24.4009 110.626 23.2495 105.505 23.3396 100.33C23.2439 94.9102 24.3744 89.5392 26.6465 84.6181ZM37.0279 109.874C38.1482 112.704 40.048 115.159 42.5069 116.953C45.0114 118.703 48.0104 119.606 51.065 119.53C54.3181 119.658 57.5246 118.724 60.1999 116.869C62.6277 115.081 64.4776 112.619 65.5208 109.79C66.687 106.63 67.2625 103.283 67.2185 99.9157C67.2545 96.5159 66.7135 93.1346 65.6185 89.9157C64.6513 87.0096 62.861 84.447 60.465 82.539C57.8567 80.5959 54.6588 79.6104 51.4092 79.7483C48.2884 79.6675 45.2222 80.5777 42.6511 82.3483C40.1506 84.1501 38.2147 86.6264 37.0697 89.4878C34.5297 96.0467 34.5165 103.315 37.0325 109.883L37.0279 109.874Z"
-                                    fill="white" />
-                                <path d="M148.838 34.9062H190.698V76.7667H148.838V34.9062Z" fill="#50D9FF" />
-                            </g>
-                            <defs>
-                                <linearGradient id="paint0_linear_538_199" x1="123.256" y1="104.674"
-                                    x2="123.256" y2="193.046" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#35B8F1" />
-                                    <stop offset="1" stop-color="#28A8EA" />
-                                </linearGradient>
-                                <linearGradient id="paint1_linear_538_199" x1="17.776" y1="42.1996" x2="84.5495"
-                                    y2="157.849" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#1784D9" />
-                                    <stop offset="0.5" stop-color="#107AD5" />
-                                    <stop offset="1" stop-color="#0A63C9" />
-                                </linearGradient>
-                                <clipPath id="clip0_538_199">
-                                    <rect width="200" height="186.047" fill="white"
-                                        transform="translate(0 7)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </a>
+        <div class="mt-6 text-3xl text-center font-black">Lanyard & Badge</div>
+        <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center gap-8">
+            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[100px]" />
+        </div>
 
-                    <a title="Save Event in my Calendar" class="button secondary-outline-500"
-                        href="https://outlook.office.com/calendar/action/compose?allday=true&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-07-24T04%3A00%3A00%2B00%3A00&enddt=2025-07-26T13%3A00%3A00%2B00%3A00&subject=Developers%20Conference%202025&body=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2Centhusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle">
-                        <svg width="200" height="200" viewBox="0 0 200 200" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_538_245)">
-                                <path
-                                    d="M82.11 4.66406L81.0886 5.28183C79.4641 6.26456 77.9336 7.36334 76.5055 8.56393L79.4514 6.49179H104.455L109 40.9101L86.2727 63.6373L63.5455 79.4346V97.6505C63.5455 110.373 70.195 122.171 81.0791 128.759L105.005 143.241L54.4545 172.729H44.705L26.5335 161.73C15.6494 155.142 9 143.344 9 130.621V69.3673C9 56.6405 15.6536 44.8396 26.5433 38.2528L81.0886 5.25947C81.4268 5.05502 81.7673 4.85656 82.11 4.66406Z"
-                                    fill="url(#paint0_radial_538_245)" />
-                                <path
-                                    d="M82.11 4.66406L81.0886 5.28183C79.4641 6.26456 77.9336 7.36334 76.5055 8.56393L79.4514 6.49179H104.455L109 40.9101L86.2727 63.6373L63.5455 79.4346V97.6505C63.5455 110.373 70.195 122.171 81.0791 128.759L105.005 143.241L54.4545 172.729H44.705L26.5335 161.73C15.6494 155.142 9 143.344 9 130.621V69.3673C9 56.6405 15.6536 44.8396 26.5433 38.2528L81.0886 5.25947C81.4268 5.05502 81.7673 4.85656 82.11 4.66406Z"
-                                    fill="url(#paint1_linear_538_245)" />
-                                <path
-                                    d="M136.272 77.2734V97.6384C136.272 110.361 129.622 122.159 118.738 128.747L64.1928 161.763C53.0346 168.518 39.1514 168.761 27.7969 162.495L81.0778 194.746C92.6532 201.753 107.162 201.753 118.738 194.746L173.284 161.729C184.168 155.141 190.817 143.343 190.817 130.621V115.91L186.271 109.092L136.272 77.2734Z"
-                                    fill="url(#paint2_radial_538_245)" />
-                                <path
-                                    d="M136.272 77.2734V97.6384C136.272 110.361 129.622 122.159 118.738 128.747L64.1928 161.763C53.0346 168.518 39.1514 168.761 27.7969 162.495L81.0778 194.746C92.6532 201.753 107.162 201.753 118.738 194.746L173.284 161.729C184.168 155.141 190.817 143.343 190.817 130.621V115.91L186.271 109.092L136.272 77.2734Z"
-                                    fill="url(#paint3_linear_538_245)" />
-                                <path
-                                    d="M173.274 38.2523L118.729 5.25898C107.517 -1.52316 93.5545 -1.73325 82.1717 4.62866L81.0881 5.28412C70.1986 11.871 63.5449 23.6717 63.5449 36.3986V79.5072L81.0881 68.8954C92.659 61.8968 107.158 61.8968 118.729 68.8954L173.274 101.889C183.824 108.27 190.398 119.544 190.798 131.812C190.811 131.416 190.818 131.019 190.818 130.621V69.3668C190.818 56.64 184.164 44.8391 173.274 38.2523Z"
-                                    fill="url(#paint4_radial_538_245)" />
-                                <path
-                                    d="M173.274 38.2523L118.729 5.25898C107.517 -1.52316 93.5545 -1.73325 82.1717 4.62866L81.0881 5.28412C70.1986 11.871 63.5449 23.6717 63.5449 36.3986V79.5072L81.0881 68.8954C92.659 61.8968 107.158 61.8968 118.729 68.8954L173.274 101.889C183.824 108.27 190.398 119.544 190.798 131.812C190.811 131.416 190.818 131.019 190.818 130.621V69.3668C190.818 56.64 184.164 44.8391 173.274 38.2523Z"
-                                    fill="url(#paint5_linear_538_245)" />
-                            </g>
-                            <defs>
-                                <radialGradient id="paint0_radial_538_245" cx="0" cy="0" r="1"
-                                    gradientUnits="userSpaceOnUse"
-                                    gradientTransform="translate(69.9936 39.266) rotate(110.528) scale(151.662 264.53)">
-                                    <stop offset="0.06441" stop-color="#AE7FE2" />
-                                    <stop offset="1" stop-color="#0078D4" />
-                                </radialGradient>
-                                <linearGradient id="paint1_linear_538_245" x1="70.4177" y1="163.04" x2="48.7786"
-                                    y2="125.613" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#114A8B" />
-                                    <stop offset="1" stop-color="#0078D4" stop-opacity="0" />
-                                </linearGradient>
-                                <radialGradient id="paint2_radial_538_245" cx="0" cy="0" r="1"
-                                    gradientUnits="userSpaceOnUse"
-                                    gradientTransform="translate(38.226 156.142) rotate(-8.36717) scale(141.138 93.2309)">
-                                    <stop offset="0.133928" stop-color="#D59DFF" />
-                                    <stop offset="1" stop-color="#5E438F" />
-                                </radialGradient>
-                                <linearGradient id="paint3_linear_538_245" x1="174.256" y1="106.259"
-                                    x2="151.068" y2="139.508" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#493474" />
-                                    <stop offset="1" stop-color="#8C66BA" stop-opacity="0" />
-                                </linearGradient>
-                                <radialGradient id="paint4_radial_538_245" cx="0" cy="0" r="1"
-                                    gradientUnits="userSpaceOnUse"
-                                    gradientTransform="translate(177.432 111.383) rotate(-165.772) scale(113.285 190.705)">
-                                    <stop offset="0.0584996" stop-color="#50E6FF" />
-                                    <stop offset="1" stop-color="#436DCD" />
-                                </radialGradient>
-                                <linearGradient id="paint5_linear_538_245" x1="67.9804" y1="4.80339"
-                                    x2="102.121" y2="4.80339" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#2D3F80" />
-                                    <stop offset="1" stop-color="#436DCD" stop-opacity="0" />
-                                </linearGradient>
-                                <clipPath id="clip0_538_245">
-                                    <rect width="181.818" height="200" fill="white" transform="translate(9)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </a>
+        <div class="mt-6 text-3xl text-center font-black">Internet</div>
+        <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center gap-8">
+            <img src="/images/sponsors/kaldera.png" alt="Kaldera" class="h-[50px]" />
+        </div>
 
-                    <a title="Save Event in my Calendar" class="button secondary-outline-500"
-                        href="https://calendar.yahoo.com/?desc=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2Centhusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&dur=allday&in_loc=Voila%20Hotel%20Bagatelle&et=20250726&st=20250724&title=Developers%20Conference%202025&v=60">
-                        <svg width="200" height="200" viewBox="0 0 200 200" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_538_197)">
-                                <path
-                                    d="M0 54.2845H38.1438L60.3548 111.107L82.8546 54.2845H119.99L64.0709 188.803H26.6943L42.0023 153.158L0.00118122 54.2845H0ZM163.235 99.6875H121.64L158.558 11L200 11.0018L163.235 99.6875ZM132.536 108.176C145.298 108.176 155.644 118.521 155.644 131.281C155.644 144.042 145.298 154.388 132.536 154.388C119.775 154.388 109.432 144.042 109.432 131.281C109.432 118.521 119.777 108.176 132.536 108.176Z"
-                                    fill="#5F01D1" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_538_197">
-                                    <rect width="200" height="177.803" fill="white"
-                                        transform="translate(0 11)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </a>
-                </div>
+        <div class="mt-6 text-3xl text-center font-black">Giveaways</div>
+        <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center gap-8">
+            <img src="/images/sponsors/novity.png" alt="Novity" class="h-[80px]" />
+        </div>
 
-                <div class="with-divider">
-                    <button type="button" class="button secondary-outline-500">Download Calendar File</button>
-                </div>
-            </section>
+        <div class="mt-6 text-3xl text-center font-black">Website Hosting</div>
+        <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center gap-8">
+            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[100px]" />
         </div>
     </section>
-    <section data-layout="section-with-title">
-        <div class="title-box">
-            <h3 class="title">Let's have a blast!</h3>
-            <p class="caption">Our community and team absolutely loved the energy in the last conference. We are
-                looking forward to your participation in the next one!</p>
-        </div>
 
-        <div class="content-box">
-            <div class="metrics-items">
-                <div class="item">
-                    <span class="animated-emoji zoom-in-zoom-out" data-emoji-size="40">
-                        <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Smilies/Partying Face.png"
-                            alt="Animated Emoji">
-                    </span>
-                    <h2 class="title">1600+</h2>
-                    <p class="caption">Attendees</p>
+    <section class="mt-4 lg:mt-8">
+        <div class="flex flex-col lg:flex-row max-w-7xl mx-auto gap-6 p-6">
+            <div class="lg:w-[640px]">
+                <h2 class="text-3xl lg:text-4xl font-black font-devcon">Sponsors & Partners</h2>
+                <p class="mt-2 text-lg">
+                    We extend our heartfelt gratitude to all our sponsors and partners for their
+                    unwavering support and commitment to the Developers Conference. Thank you for
+                    believing in our mission and standing with us.
+                </p>
+
+                <div class="mt-8">
+                    <h2 class="text-xl font-bold">Count every second until the event</h2>
+                    <div class="mt-2 flex flex-row gap-4">
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="days">137</p>
+                                <p class="text-sm font-thin text-gray-600">Days</p>
+                            </div>
+                        </div>
+
+                        <span class="text-2xl font-black">:</span>
+
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="hours">18</p>
+                                <p class="text-sm font-thin text-gray-600">Hours</p>
+                            </div>
+                        </div>
+
+                        <span class="text-2xl font-black">:</span>
+
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="minutes">13</p>
+                                <p class="text-sm font-thin text-gray-600">Minutes</p>
+                            </div>
+                        </div>
+
+                        <span class="text-2xl font-black">:</span>
+
+                        <div class="count-wrap">
+                            <div class="flex flex-col items-center">
+                                <p class="time text-3xl text-gray-700 font-black" id="seconds">43</p>
+                                <p class="text-sm font-thin text-gray-600">Seconds</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <span class="animated-emoji zoom-in-zoom-out" data-emoji-size="40">
-                        <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/People with professions/Technologist Medium Skin Tone.png"
-                            alt="Animated Emoji">
-                    </span>
-                    <h2 class="title">80+</h2>
-                    <p class="caption">Speakers</p>
+
+                <div class="mt-4">
+                    <p class="text-lg">Save the date in your calendar!</p>
+
+                    <div class="mt-4 flex flex-row gap-4">
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250724%2F20250727&details=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle&text=Developers%20Conference%202025">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/google.svg" alt="Google" />
+                        </a>
+
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://outlook.live.com/calendar/0/action/compose?allday=true&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-07-24T04%3A00%3A00%2B00%3A00&enddt=2025-07-27T13%3A00%3A00%2B00%3A00&subject=Developers%20Conference%202025&body=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/outlook.svg" alt="Outlook" />
+                        </a>
+
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://outlook.office.com/calendar/action/compose?allday=true&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-07-24T04%3A00%3A00%2B00%3A00&enddt=2025-07-27T13%3A00%3A00%2B00%3A00&subject=Developers%20Conference%202025&body=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&location=Voila%20Hotel%20Bagatelle">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/office.svg" alt="Office 365" />
+                        </a>
+
+                        <a rel="noopener" title="Save Event in my Calendar" target="_blank"
+                           class="button secondary-outline-500"
+                           href="https://calendar.yahoo.com/?desc=Join%20the%20Developers%20Conference%202025%20along%20with%20developers%2C%20enthusiasts%20and%20industry%20experts%20for%20an%20engaging%20three%20days%20of%20technology%21%20The%20theme%20of%20the%20day%20is%3A%20Emojis%21&dur=allday&in_loc=Voila%20Hotel%20Bagatelle&et=20250727&st=20250724&title=Developers%20Conference%202025&v=60">
+
+                            <img class="p-2 rounded-md bg-gray-200 hover:bg-gray-300 transition ease-in-out duration-500 h-10" src="/images/icons/calendar/yahoo.svg" alt="Yahoo" />
+                        </a>
+                    </div>
+
+                    <div class="mt-4">
+                        <p class="text-lg">Did not find an option for your calendar? Download the file and import it manually.</p>
+                        <div class="mt-5">
+                            <a href="/calendar/devcon.ics" class="mt-4 p-3 bg-yellow-400 hover:bg-yellow-500 transition ease-in-out duration-500 rounded-md font-medium" download>Download Calendar File</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    <span class="animated-emoji zoom-in-zoom-out" data-emoji-size="40">
-                        <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Travel and places/Rocket.png"
-                            alt="Animated Emoji">
-                    </span>
-                    <h2 class="title">70+</h2>
-                    <p class="caption">Sessions</p>
-                </div>
-                <div class="item">
-                    <span class="animated-emoji zoom-in-zoom-out" data-emoji-size="40">
-                        <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Smilies/Smiling Face with Hearts.png"
-                            alt="Animated Emoji">
-                    </span>
-                    <h2 class="title">20+</h2>
-                    <p class="caption">Sponsors</p>
-                </div>
+
             </div>
-            <div class="gallery-grid">
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-1.webp" alt="gallery-image" />
+
+            <div class="w-full lg:border-l-1 lg:border-gray-200 lg:pl-6">
+                <div class="text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Gold
+                    <span><img src="/images/emojis/gold.svg" class="-mt-2 h-12"></span>
                 </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-2.webp" alt="gallery-image" />
+                <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center lg:justify-normal gap-8">
+                    <img src="/images/sponsors/publicis.png" alt="Publicis Global Delivery" class="h-[100px]" />
                 </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-3.webp" alt="gallery-image" />
+
+                <div class="mt-6 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Bronze
+                    <span><img src="/images/emojis/bronze.svg" class="-mt-2 h-12"></span>
                 </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-4.webp" alt="gallery-image" />
+                <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-8">
+                    <img src="/images/sponsors/clarity.png" alt="Clarity" class="h-[40px]" />
+                    <img src="/images/sponsors/cloudsure.png" alt="Cloudsure" class="h-[80px]" />
                 </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-5.webp" alt="gallery-image" />
+
+                <div class="mt-6 grid grid-col-1 lg:grid-cols-3 place-items-center lg:place-items-start">
+                    <div>
+                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Lanyard & Badge</div>
+                        <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
+                            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[80px]" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Giveaways</div>
+                        <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
+                            <img src="/images/sponsors/novity.png" alt="Novity" class="h-[70px]" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Internet</div>
+                        <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
+                            <img src="/images/sponsors/kaldera.png" alt="Kaldera" class="h-[50px]" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Website Hosting</div>
+                        <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
+                            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[80px]" />
+                        </div>
+                    </div>
                 </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-6.webp" alt="gallery-image" />
-                </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-7.webp" alt="gallery-image" />
-                </div>
-                <div class="gallery-item fade-in" data-animate-scroll="fade-in">
-                    <img class="gallery-image" src="/images/Gallery-8.webp" alt="gallery-image" />
-                </div>
+
+
+
             </div>
         </div>
     </section>
 
-    <section data-layout="section-with-title">
-        <div class="title-box">
-            <h3 class="title">What to expect?</h3>
-            <p class="caption">Learn about industry trends, best practices and new innovations through sessions
-                and workshops when you are not having fun with all the entertainment and activities.</p>
-        </div>
+    {{--  What to expect  --}}
+    <section class="mt-16 max-w-4xl mx-auto">
+        <h2 class="text-4xl lg:text-5xl font-devcon text-center">What to expect?</h2>
+        <p class="mt-2 lg:mt-4 text-center text-lg lg:text-xl px-4 lg:px-0">
+            Learn about industry trends, best practices and new innovations through sessions and workshops
+            when you are not having fun with all the entertainment and activities.
+        </p>
+    </section>
 
-        <div class="content-box">
-            <div class="features" data-size="L">
-                <div class="feature">
-                    <i class="icon">
-                        <span class="animated-emoji" data-emoji-size="50">
-                            <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Activities/Artist Palette.png" alt="Feature Icon">
-                        </span>
-                    </i>
-                    <h5>Workshops</h5>
-                    <p>Led by industry experts, these workshops offer a unique opportunity to gain practical skills and insights, making them a valuable experience for both beginners and seasoned professionals.</p>
-                </div>
-                <div class="feature">
-                    <i class="icon">
-                        <span class="animated-emoji" data-emoji-size="50">
-                            <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Activities/Bullseye.png" alt="Feature Icon">
-                        </span>
-                    </i>
-                    <h5>Panel Discussions</h5>
-                    <p>The panel discussions bring together thought leaders and innovators to explore current trends, challenges, and the future of technology. These engaging sessions provide a platform for diverse perspectives and lively debates, sparking new ideas and inspiring our community.</p>
-                </div>
-                <div class="feature">
-                    <i class="icon">
-                        <span class="animated-emoji" data-emoji-size="50">
-                            <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Activities/Performing Arts.png" alt="Feature Icon">
-                        </span>
-                    </i>
-                    <h5>Speaker Sessions</h5>
-                    <p>DevCon sessions are packed with knowledge-sharing and inspiration, featuring local and international speakers. From cutting-edge innovations to practical applications, these talks cover a wide range of topics, ensuring there's something for everyone, whether you're a developer, designer, or entrepreneur.</p>
-                </div>
-                <div class="feature">
-                    <i class="icon">
-                        <span class="animated-emoji" data-emoji-size="50">
-                            <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Activities/Bowling.png" alt="Feature Icon">
-                        </span>
-                    </i>
-                    <h5>Friendly Atmosphere</h5>
-                    <p>DevCon is known for its warm and inclusive atmosphere. Whether you are a first-time attendee or a conference veteran, you'll feel right at home. Our community is supportive and eager to connect, making DevCon a place where lasting professional relationships are formed.</p>
-                </div>
-                <div class="feature">
-                    <i class="icon">
-                        <span class="animated-emoji" data-emoji-size="50">
-                            <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Activities/Sports Medal.png" alt="Feature Icon">
-                        </span>
-                    </i>
-                    <h5>Activities</h5>
-                    <p>Beyond the sessions and discussions, DevCon offers a range of cool activities that add an extra layer of fun to the conference. From interactive games to creative challenges, these activities are designed to engage and entertain, making DevCon a memorable experience for all attendees.</p>
-                </div>
-                <div class="feature">
-                    <i class="icon">
-                        <span class="animated-emoji" data-emoji-size="50">
-                            <img src="https://raw.githubusercontent.com/vnsnippets/developers-conference/release/resources/.optimized/Objects/Necktie.png" alt="Feature Icon">
-                        </span>
-                    </i>
-                    <h5>Networking</h5>
-                    <p>The networking hour is an 'invitation-only' event, offering a relaxed environment to connect with peers, mentors, and industry leaders. It's the perfect opportunity to exchange ideas, collaborate on projects, and expand your professional network in a casual, friendly setting.</p>
-                </div>
+    {{--  Gallery  --}}
+    <section class="mt-8 max-w-7xl mx-auto px-4 lg:px-0">
+        <div class="grid grid-col-1 gap-4 lg:grid-cols-2">
+            <div><img src="/images/gallery/1.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/2.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+        <div class="mt-4 grid grid-col-1 gap-4 lg:grid-cols-3">
+            <div><img src="/images/gallery/3.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/4.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/5.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+        <div class="mt-4 grid grid-col-1 gap-4 lg:grid-cols-2">
+            <div><img src="/images/gallery/1a.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/1c.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+        <div class="mt-4 grid grid-col-1 gap-4 lg:grid-cols-4">
+            <div><img src="/images/gallery/6.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/7.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/8.jpeg" class="rounded-lg shadow-lg" /></div>
+            <div><img src="/images/gallery/9.jpeg" class="rounded-lg shadow-lg" /></div>
+        </div>
+    </section>
+
+    <section class="mt-10 max-w-7xl mx-auto px-4 lg:px-0">
+        <div class="grid grid-col-1 lg:grid-cols-3 gap-6">
+            <div>
+                <img src="/images/emojis/palette.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Workshops</h3>
+                <p class="text-lg">
+                    Led by industry experts, these workshops offer a unique opportunity to gain
+                    practical skills and insights, making them a valuable experience for both
+                    beginners and seasoned professionals.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/bullseye.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Panel Discussions</h3>
+                <p class="text-lg">
+                    The panel discussions bring together thought leaders and innovators to explore
+                    current trends, challenges, and the future of technology. These engaging sessions
+                    provide a platform for diverse perspectives and lively debates, sparking new ideas
+                    and inspiring our community.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/performing-arts.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Speaker Sessions</h3>
+                <p class="text-lg">
+                    DevCon sessions are packed with knowledge-sharing and inspiration, featuring local
+                    and international speakers. From cutting-edge innovations to practical applications,
+                    these talks cover a wide range of topics, ensuring there's something for everyone,
+                    whether you're a developer, designer, or entrepreneur.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/bowling.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Friendly Atmosphere</h3>
+                <p class="text-lg">
+                    DevCon is known for its warm and inclusive atmosphere. Whether you are a first-time
+                    attendee or a conference veteran, you'll feel right at home. Our community is supportive
+                    and eager to connect, making DevCon a place where lasting professional relationships are
+                    formed.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/medal.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Activities</h3>
+                <p class="text-lg">
+                    Beyond the sessions and discussions, DevCon offers a range of cool activities that
+                    add an extra layer of fun to the conference. From interactive games to creative
+                    challenges, these activities are designed to engage and entertain, making DevCon
+                    a memorable experience for all attendees.
+                </p>
+            </div>
+            <div>
+                <img src="/images/emojis/necktie.png" class="h-10" />
+                <h3 class="mt-2 font-devcon text-xl">Networking</h3>
+                <p class="text-lg">
+                    The networking hour is an 'invitation-only' event, offering a relaxed environment
+                    to connect with peers, mentors, and industry leaders. It's the perfect opportunity
+                    to exchange ideas, collaborate on projects, and expand your professional network in
+                    a casual, friendly setting.
+                </p>
             </div>
         </div>
     </section>
-</section>
+
+    <script src="/scripts/countdown.js"></script>
 @endsection
