@@ -9,10 +9,10 @@
     <meta property="og:url" content="/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en">
-    <meta name="description" content="Beta version of Developers Conference 2025 website - currently in development.">
+    <meta name="description" content="Developers Conference 2025 — the largest gathering of software craftsman, web devs, sysadmins, designers, testers and the younger generation of aspiring professionals.">
     <meta property="og:description"
-        content="Beta version of Developers Conference 2025 website - currently in development.">
-    <meta name="keywords" content="Technology">
+        content="Developers Conference 2025 — the largest gathering of software craftsman, web devs, sysadmins, designers, testers and the younger generation of aspiring professionals.">
+    <meta name="keywords" content="Technology, Software Development, Linux, Open Source, Programming">
     <meta property="og:image" content="/images/meta-image.png">
 
     <title>Developers Conference 2025</title>
