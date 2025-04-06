@@ -123,7 +123,7 @@
     <section class="mt-4 lg:mt-8">
         <div class="flex flex-col lg:flex-row max-w-7xl mx-auto gap-6 p-6">
             <div class="lg:w-[640px]">
-                <h2 class="text-3xl font-black font-devcon">Sponsors & Partners</h2>
+                <h2 class="text-3xl lg:text-4xl font-black font-devcon">Sponsors & Partners</h2>
                 <p class="mt-2 text-lg">
                     We extend our heartfelt gratitude to all our sponsors and partners for their
                     unwavering support and commitment to the Developers Conference. Thank you for
@@ -213,15 +213,15 @@
             </div>
 
             <div class="w-full lg:border-l-1 lg:border-gray-200 lg:pl-6">
-                <div class="text-3xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Gold
-                    <span><img src="/images/emojis/gold.svg" class="h-10"></span>
+                <div class="text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Gold
+                    <span><img src="/images/emojis/gold.svg" class="-mt-2 h-12"></span>
                 </div>
                 <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center lg:justify-normal gap-8">
                     <img src="/images/sponsors/publicis.png" alt="Publicis Global Delivery" class="h-[100px]" />
                 </div>
 
-                <div class="mt-6 text-3xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Bronze
-                    <span><img src="/images/emojis/bronze.svg" class="h-10"></span>
+                <div class="mt-6 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Bronze
+                    <span><img src="/images/emojis/bronze.svg" class="-mt-2 h-12"></span>
                 </div>
                 <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-8">
                     <img src="/images/sponsors/clarity.png" alt="Clarity" class="h-[40px]" />
