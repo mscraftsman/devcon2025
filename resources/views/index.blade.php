@@ -230,25 +230,25 @@
 
                 <div class="mt-6 grid grid-col-1 lg:grid-cols-3 place-items-center lg:place-items-start">
                     <div>
-                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Lanyard & Badge</div>
+                        <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Lanyard & Badge</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
                             <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[80px]" />
                         </div>
                     </div>
                     <div>
-                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Giveaways</div>
+                        <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Giveaways</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
                             <img src="/images/sponsors/novity.png" alt="Novity" class="h-[70px]" />
                         </div>
                     </div>
                     <div>
-                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Internet</div>
+                        <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Internet</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
                             <img src="/images/sponsors/kaldera.png" alt="Kaldera" class="h-[50px]" />
                         </div>
                     </div>
                     <div>
-                        <div class="mt-6 text-xl font-black font-devcon text-center lg:text-left">Website Hosting</div>
+                        <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Website Hosting</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
                             <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[80px]" />
                         </div>
