@@ -124,7 +124,7 @@
         <div class="flex flex-col lg:flex-row max-w-7xl mx-auto gap-6 p-6">
             <div class="lg:w-[640px]">
                 <h2 class="text-3xl font-black font-devcon">Sponsors & Partners</h2>
-                <p class="mt-2 font-medium">
+                <p class="mt-2 text-lg">
                     We extend our heartfelt gratitude to all our sponsors and partners for their
                     unwavering support and commitment to the Developers Conference. Thank you for
                     believing in our mission and standing with us.
@@ -170,7 +170,7 @@
                 </div>
 
                 <div class="mt-4">
-                    <p class="font-medium">Save the date in your calendar!</p>
+                    <p class="text-lg">Save the date in your calendar!</p>
 
                     <div class="mt-4 flex flex-row gap-4">
                         <a rel="noopener" title="Save Event in my Calendar" target="_blank"
@@ -203,7 +203,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <p class="font-medium">Did not find an option for your calendar? Download the file and import it manually.</p>
+                        <p class="text-lg">Did not find an option for your calendar? Download the file and import it manually.</p>
                         <div class="mt-5">
                             <a href="/calendar/devcon.ics" class="mt-4 p-3 bg-yellow-400 hover:bg-yellow-500 transition ease-in-out duration-500 rounded-md font-medium" download>Download Calendar File</a>
                         </div>
