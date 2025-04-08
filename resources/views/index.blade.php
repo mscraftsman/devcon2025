@@ -13,13 +13,13 @@
             <div class="flex space-x-4">
                 <a
                     href="#agenda"
-                    class="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition"
+                    class="hidden px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700 transition"
                 >
                     Agenda
                 </a>
                 <a
                     href="#register"
-                    class="px-4 py-2 bg-orange-500 text-white rounded-lg shadow hover:bg-orange-600 transition"
+                    class="hidden px-4 py-2 bg-orange-500 text-white rounded-lg shadow hover:bg-orange-600 transition"
                 >
                     Register
                 </a>
