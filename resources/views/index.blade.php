@@ -224,8 +224,15 @@
                     <span><img src="/images/emojis/bronze.svg" class="-mt-2 h-12"></span>
                 </div>
                 <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-8">
-                    <img src="/images/sponsors/clarity.png" alt="Clarity" class="h-[40px]" />
+                    <img src="/images/sponsors/clarity.png" alt="Clarity" class="h-[46px]" />
                     <img src="/images/sponsors/cloudsure.png" alt="Cloudsure" class="h-[80px]" />
+                </div>
+
+                <div class="mt-6 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Speaker Sponsor
+                    <span><img src="/images/emojis/speaker.svg" class="-mt-2 h-12"></span>
+                </div>
+                <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-8">
+                    <img src="/images/sponsors/jetbrains.png" alt="Jetbrains" class="h-[50px]" />
                 </div>
 
                 <div class="mt-6 grid grid-col-1 lg:grid-cols-3 place-items-center lg:place-items-start">
