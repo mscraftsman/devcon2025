@@ -220,22 +220,23 @@
                     <img src="/images/sponsors/publicis.png" alt="Publicis Global Delivery" class="h-[100px]" />
                 </div>
 
-                <div class="mt-6 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Bronze
+                <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Bronze
                     <span><img src="/images/emojis/bronze.svg" class="-mt-2 h-12"></span>
                 </div>
-                <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-8">
+                <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-16">
                     <img src="/images/sponsors/clarity.png" alt="Clarity" class="h-[46px]" />
                     <img src="/images/sponsors/cloudsure.png" alt="Cloudsure" class="h-[80px]" />
+                    <img src="/images/sponsors/novity.png" alt="Novity" class="h-[70px]" />
                 </div>
 
-                <div class="mt-6 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Speaker Sponsor
+                <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Speaker Sponsor
                     <span><img src="/images/emojis/speaker.svg" class="-mt-2 h-12"></span>
                 </div>
                 <div class="mt-4 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-8">
                     <img src="/images/sponsors/jetbrains.png" alt="Jetbrains" class="h-[50px]" />
                 </div>
 
-                <div class="mt-6 grid grid-col-1 lg:grid-cols-3 place-items-center lg:place-items-start">
+                <div class="mt-6 lg:mt-10 grid grid-col-1 lg:grid-cols-3 place-items-center lg:place-items-start">
                     <div>
                         <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Lanyard & Badge</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
