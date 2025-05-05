@@ -212,8 +212,16 @@
 
             </div>
 
-            <div class="w-full lg:border-l-1 lg:border-gray-200 lg:pl-6">
-                <div class="text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Gold
+            <div class="w-full lg:border-l-1 lg:border-gray-200 lg:pl-6 mt-8 lg:mt-0">
+                <div class="text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Platinum
+                    <span><img src="/images/emojis/platinum.svg" class="-mt-6 h-16"></span>
+                </div>
+                <div class="mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-16">
+                    <img src="/images/sponsors/swan.png" alt="SWAN" class="h-[65px] lg:h-[80px]" />
+                    <img src="/images/sponsors/google.png" alt="Google" class="h-[65px] lg:h-[80px]" />
+                </div>
+
+                <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Gold
                     <span><img src="/images/emojis/gold.svg" class="-mt-2 h-12"></span>
                 </div>
                 <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center lg:justify-normal gap-8">
