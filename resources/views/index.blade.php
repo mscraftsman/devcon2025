@@ -249,7 +249,7 @@
                     <div>
                         <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Lanyard & Badge</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
-                            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[80px]" />
+                            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="-mt-4 h-[90px]" />
                         </div>
                     </div>
                     <div>
@@ -267,7 +267,7 @@
                     <div>
                         <div class="mt-6 text-2xl font-black font-devcon text-center lg:text-left">Website Hosting</div>
                         <div class="mt-4 max-w-4xl mx-auto flex justify-center gap-8">
-                            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[80px]" />
+                            <img src="/images/sponsors/cloud.mu.png" alt="cloud.mu" class="h-[90px]" />
                         </div>
                     </div>
                 </div>
