@@ -14,11 +14,8 @@
         content="Developers Conference 2025 — the largest gathering of software craftsman, web devs, sysadmins, designers, testers and the younger generation of aspiring professionals.">
     <meta name="keywords" content="Technology, Software Development, Linux, Open Source, Programming">
     <meta property="og:image" content="/images/meta-image.png">
-
     <title>Developers Conference 2025</title>
-
     <link rel="icon" type="image/png" href="favicon.ico" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
@@ -26,9 +23,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap" rel="stylesheet">
 
-{{--    <link href="/styles/style.css" rel="stylesheet" />--}}
-
-    @vite('resources/css/app.css')
+    @vite(['resources/js/app.js', 'resources/css/app.css', 'resources/scss/app.scss'])
 </head>
 
 <body>

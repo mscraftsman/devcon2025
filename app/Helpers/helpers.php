@@ -34,7 +34,7 @@ if (! function_exists('convertDateTime')) {
 if (! function_exists('generateGridTemplateAreas')) {
     function generateGridTemplateAreas($cellIds)
     {
-        $columns = 6;
+        $columns = 4;
         $rows = ceil(count($cellIds) / $columns);
 
         $gridTemplateAreas = '';

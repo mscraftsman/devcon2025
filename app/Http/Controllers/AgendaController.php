@@ -6,16 +6,16 @@ use Illuminate\Http\Request;
 
 class AgendaController extends Controller
 {
-    public function index() {
+  public function index() {
 		$title = 'MSCC — Agenda';
 		$sessions = json_decode(file_get_contents(storage_path() . "/data/sessions.json"), true);
         $groupedSessions = [];
         $groupedSessionsBySlot = [];
 
         foreach ($sessions as $day) {
-					$dayGroup = strtolower(str_replace(' ', '-', $day['groupName']));
+					$dayGroup = $day['groupName'];
 					foreach ($day['sessions'] as $session) {
-							$room = $session['room'];
+							$room = strtolower(str_replace(' ', '-', $session['room']));
 							$id = $session['id'];
 							$groupedSessions[$dayGroup][$id] = $session;
 					}
@@ -31,7 +31,6 @@ class AgendaController extends Controller
 					'14:00',
 					'15:00',
 					'16:00',
-					'17:00',
 				];
 
 				$time_range_friday = [
@@ -43,8 +42,6 @@ class AgendaController extends Controller
 					'14:00',
 					'15:00',
 					'16:00',
-					'17:00',
-					'18:00',
 				];
 
 				$time_range_saturday = [
@@ -61,6 +58,7 @@ class AgendaController extends Controller
 
 				$cellIds = [];
 				$cellIdsFriday = [];
+				$cellIdsSaturday = [];
 
 				foreach ($time_range as $time) {
 						foreach ($roomNames as $room) {
@@ -74,8 +72,14 @@ class AgendaController extends Controller
 					}
 				}
 
+				foreach ($time_range_saturday as $time) {
+					foreach ($roomNames as $room) {
+							$cellIdsSaturday[] = $room . '-' . str_replace(':', '', $time);
+					}
+				}
+
 				if (!empty($sessions)) {
-					return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'cellIdsFriday', 'roomNames', 'time_range', 'time_range_friday', 'time_range_saturday'));
+					return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'cellIdsFriday', 'cellIdsSaturday', 'roomNames', 'time_range', 'time_range_friday', 'time_range_saturday'));
 				}
 
 				if (empty($result)) {

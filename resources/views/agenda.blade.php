@@ -13,9 +13,9 @@
 
     <section class="mt-10 max-w-7xl px-2 mx-auto" >
       <div class="days__container grid grid-cols-3 gap-2">
-        <div class="date uppercase text-slate-300 text-center">18 July</div>
-        <div class="date uppercase text-slate-300 text-center">19 July</div>
-        <div class="date uppercase text-slate-300 text-center">20 July</div>
+        <div class="date uppercase text-slate-300 text-center">24 July</div>
+        <div class="date uppercase text-slate-300 text-center">25 July</div>
+        <div class="date uppercase text-slate-300 text-center">26 July</div>
       </div>
     </section>
 
@@ -34,6 +34,8 @@
               <label
                 for="day-thursday"
                 class="
+    
+
                       inline-flex
                       items-center
                       justify-center
@@ -145,23 +147,23 @@
       <div class="sessions__column">
 
         <div class="tracks__container grid grid-cols-3 gap-2 mb-10 ml-20 h-12" id="rooms-bar">
-          <div class="track__title text-center bg-[#2F9ED9] text-white py-4 uppercase font-bold rounded-md">
+          <div class="track__title text-center bg-[#9F00FF] text-white py-4 uppercase font-bold rounded-md">
             Educator 1
           </div>
-          <div class="track__title text-center bg-[#2F9ED9] text-white py-4 uppercase font-bold rounded-md">
+          <div class="track__title text-center bg-[#9F00FF] text-white py-4 uppercase font-bold rounded-md">
             Educator 2
           </div>
-          <div class="track__title text-center bg-[#2F9ED9] text-white py-4 uppercase font-bold rounded-md">
-            Accerator
+          <div class="track__title text-center bg-[#9F00FF] text-white py-4 uppercase font-bold rounded-md">
+            Accelerator
           </div>
         </div>
 
         <div class="registration--block">
           <div class="session__wrapper px-4 py-3 ml-20 mt-20 rounded-md bg-slate-100 block">
             <div class="tile_start text-sm text-slate-500 mb-1 font-medium">
-              As from 08:30
+              As from 08:30 — 15:00
             </div>
-            <h3 class="font-bold text-md mb-2 text-purple ">Registration</h3>
+            <h3 class="font-bold text-md mb-2 text-slate-500 font-devcon">Registration</h3>
           </div>
         </div>
 
@@ -182,20 +184,20 @@
               @if($key == 'Thursday')
                 @foreach($value as $key => $session)
                   <a
-                      class="session__wrapper px-4 py-3 rounded-md bg-slate-100 block mb-3 hover:bg-slate-200 hover:drop-shadow-md transition-all hover:scale-105"
-                      style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
-                      data-room="{{ $session['room'] }}"
-                      href="/agenda/{{ $session['id'] }}"
-                      >
-                    <div class="tile_start text-sm text-slate-500 mb-1 font-medium">
+                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
+                    style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
+                    data-room="{{ $session['room'] }}"
+                    href="/agenda/{{ $session['id'] }}"
+                    >
+                    <div class="bg-slate-200 rounded-md inline-block px-2 py-1 mb-2 text-sm text-slate-500 mb-1 font-regular">
                       {{convertDateTimeToTime($session['startsAt'])}} - {{convertDateTimeToTime($session['endsAt'])}}
                     </div>
-                    <h3 class="font-bold text-md mb-2 text-purple ">{{ $session['title'] }}</h3>
+                    <h3 class="font-bold text-md mb-2 text-slate-500 font-devcon">{{ $session['title'] }}</h3>
                     <div class="speaker text-sm mt-2">
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
-                          <img src="/speaker/{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div href="/speaker/{{ $speaker['id'] }}">{{ $speaker['name'] }}</div>
+                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
+                          <div class="font-light text-slate-500">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
@@ -223,20 +225,20 @@
               @if($key == 'Friday')
                 @foreach($value as $key => $session)
                   <a
-                      class="session__wrapper px-4 py-3 rounded-md bg-slate-100 block mb-3 hover:bg-slate-200 hover:drop-shadow-md transition-all hover:scale-105"
-                      style="grid-row: {{ calculatePlacementGridRow($session, $time_range_friday) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
-                      data-room="{{ $session['room'] }}"
-                      href="/agenda/{{ $session['id'] }}"
-                      >
-                    <div class="tile_start text-sm text-slate-500 mb-1 font-medium">
+                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
+                    style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
+                    data-room="{{ $session['room'] }}"
+                    href="/agenda/{{ $session['id'] }}"
+                    >
+                    <div class="bg-slate-200 rounded-md inline-block px-2 py-1 mb-2 text-sm text-slate-500 mb-1 font-regular">
                       {{convertDateTimeToTime($session['startsAt'])}} - {{convertDateTimeToTime($session['endsAt'])}}
                     </div>
-                    <h3 class="font-bold text-md mb-2 text-purple ">{{ $session['title'] }}</h3>
+                    <h3 class="font-bold text-md mb-2 text-slate-500 font-devcon">{{ $session['title'] }}</h3>
                     <div class="speaker text-sm mt-2">
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
-                          <img src="/speaker/{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div href="/speaker/{{ $speaker['id'] }}">{{$speaker['name']}}</div>
+                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
+                          <div class="font-light text-slate-500">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
@@ -248,7 +250,7 @@
         </div>
 
         <div class="day--saturday--agenda" id="agenda-saturday" x-show="selectedOption == 'saturday'">
-          <div class="track__session" style="grid-template-areas: {{ generateGridTemplateAreas($cellIdsFriday) }}">
+          <div class="track__session" style="grid-template-areas: {{ generateGridTemplateAreas($cellIdsSaturday) }}">
             @foreach($time_range_saturday as $time)
               <div
                 class="time__track"
@@ -264,20 +266,20 @@
               @if($key == 'Saturday')
                 @foreach($value as $key => $session)
                   <a
-                      class="session__wrapper px-4 py-3 rounded-md bg-slate-100 block mb-3 hover:bg-slate-200 hover:drop-shadow-md transition-all hover:scale-105"
-                      style="grid-row: {{ calculatePlacementGridRow($session, $time_range_saturday) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
-                      data-room="{{ $session['room'] }}"
-                      href="/agenda/{{ $session['id'] }}"
-                      >
-                    <div class="tile_start text-sm text-slate-500 mb-1 font-medium">
+                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
+                    style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
+                    data-room="{{ $session['room'] }}"
+                    href="/agenda/{{ $session['id'] }}"
+                    >
+                    <div class="bg-slate-200 rounded-md inline-block px-2 py-1 mb-2 text-sm text-slate-500 mb-1 font-regular">
                       {{convertDateTimeToTime($session['startsAt'])}} - {{convertDateTimeToTime($session['endsAt'])}}
                     </div>
-                    <h3 class="font-bold text-md mb-2 text-purple ">{{ $session['title'] }}</h3>
+                    <h3 class="font-bold text-md mb-2 text-slate-500 font-devcon">{{ $session['title'] }}</h3>
                     <div class="speaker text-sm mt-2">
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
-                          <img src="/speaker/{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div href="/speaker/{{ $speaker['id'] }}">{{$speaker['name']}}</div>
+                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-8 h-8 rounded-full mr-2" alt="{{$speaker['name']}}">
+                          <div class="font-light text-slate-500">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
@@ -288,20 +290,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="sponsors">
-      <section class="pt-2 max-w-4xl px-3 mb-10 mx-auto">
-        <div class="sponsor__section mt-10" x-show="selectedOption == 'friday'">
-          <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-purple mb-2">Networking hour sponsored by</h3>
-          <div class="sponsor--logo-wrapper">
-            <a href="https://www.spoonconsulting.com/s/" target="_blank" class="inline grid place-items-center">
-              <img class="sponsor--logo h-28 py-6" src="{{ asset('images/sponsors/spoonconsulting.png') }}" />
-            </a>
-          </div>
-          <h3 class="text-center uppercase font-astronomus text-1xl sm:text-2xl text-slate-500 mt-6">17:30 to 20:00</h3>
-        </div>
-      </section>
     </section>
   </div>
 @endsection
