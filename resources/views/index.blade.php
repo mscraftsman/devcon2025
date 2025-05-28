@@ -236,8 +236,10 @@
                     <img src="/images/sponsors/cloudsure.png" alt="Cloudsure" class="h-[80px]" />
                     <img src="/images/sponsors/novity.png" alt="Novity" class="h-[70px]" />
                 </div>
-                <div class="mt-6 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-16">
+                <div class="mt-6 lg:mt-8 lg:mt-4 max-w-4xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-normal gap-4 lg:gap-16">
                     <img src="/images/sponsors/homsphere.png" alt="Homsphere" class="h-[46px]" />
+                    <img src="/images/sponsors/mcb.png" alt="MCB" class="h-[54px]" />
+                    <img src="/images/sponsors/infomil.png" alt="Infomil" class="h-[50px]" />
                 </div>
 
                 <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Speaker Sponsor
