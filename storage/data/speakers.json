@@ -1,0 +1,1615 @@
+[
+    {
+        "id": "931baa84-0c5f-43c9-95dd-6896e0455080",
+        "firstName": "Abdallah",
+        "lastName": "Ramsing",
+        "fullName": "Abdallah Ramsing",
+        "bio": "Hi, my name is Abdallah Yashir Ramsing. I've been a Software Developer for over 12 years now.\r\n\r\nA fun fact about me is that I learned coding when 11 years, from Turbo Pascal to experimenting with Fox Pro, Microsoft Access, and Visual Basic.\r\n\r\nSince then, I've had the opportunity of working in different systems such as ERP Systems, Stock Management, Payroll, Attendance & eCommerce.\r\n\r\nI've also worked in different roles including SQL, Web & Mobile App Dev, Test Automation and Data Integration.\r\n\r\nEven after all these years coding, I'm still passionate in mastering my craft but also contributing back esp. to the local community.\r\n",
+        "tagLine": "Expert Software Developer, Productivity Enthusiast, Writer, Blogger, Public Speaker",
+        "profilePicture": "https://sessionize.com/image/e07a-400o400o1-YMhGqr6DiFryuvbsqoxVpQ.jpg",
+        "sessions": [
+            {
+                "id": 857897,
+                "name": "Stop Writing Code, Start Understanding Your Domain -- a gentle introduction to DDD"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/AbdallahRamsing",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/abdallah-yashir-ramsing-51a20782/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://abdallah-yashir.medium.com/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/abdallah-ramsing",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "dde46c59-2d2b-4840-b7a1-131c373e556d",
+        "firstName": "Aditya",
+        "lastName": "Bholah",
+        "fullName": "Aditya Bholah",
+        "bio": "Data Science, AI and Python enthusiast. Currently active in local open source communities (LUGM, Ubuntu Mauritius, PyData MU) and a contributing member in PSF.",
+        "tagLine": "Data Engineer @ Ringier AG (Delphi)",
+        "profilePicture": "https://sessionize.com/image/5038-400o400o1-GAXxLfsTj5Qy9XHP5ayLDW.jpg",
+        "sessions": [
+            {
+                "id": 866194,
+                "name": "Real-Time Data Processing with Kubernetes and Spark"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/aditya_bholah",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "Blog",
+                "url": "https://thecuriouschap.com",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/aditya-bholah",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "8d4fca0b-76de-400e-804f-e84498a329ad",
+        "firstName": "Ajmal",
+        "lastName": "Saifudeen",
+        "fullName": "Ajmal Saifudeen",
+        "bio": "Ajmal Saifudeen blends the structured world of enterprise architecture with the fast-paced spirit of innovation. As the founder of Enterprise Architects Ltd (EAL), he advises organisations across finance, communications, retail, and other sectors on how to modernise their IT landscapes, align architecture with strategy, and build for long-term agility.\r\n\r\nWith a passion for coaching startups, Ajmal breaks down complex architectural concepts into relatable, real-world insights. He’s known for making Enterprise Architecture not just accessible, but actionable - especially for those who are hands-on with technology.",
+        "tagLine": "Enterprise Architect | Digital Strategy Advisor | Startup Mentor",
+        "profilePicture": "https://sessionize.com/image/f6f5-400o400o1-azPECNEnGuimzcHTPLgg1e.png",
+        "sessions": [
+            {
+                "id": 871432,
+                "name": "What is Enterprise Architecture – and Why Should Developers Care?"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/ajmal/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "80c8f586-0d9c-45a7-ae05-037cc1dce4e7",
+        "firstName": "Alex",
+        "lastName": "Bissessur",
+        "fullName": "Alex Bissessur",
+        "bio": "Alexandre Bissessur, who most commonly goes by Alex, is a young IT professional specialising in Cloud Native technologies, particularly Kubernetes. He is an organiser of the Cloud Native Chapter in Mauritius. Alongside Cloud Native, Alex is experienced in many other domains including development and system administration.\r\nAn avid homelabber, he takes a lot of pride in the servers he runs in the living room at home, much to the displeasure of his parents.\r\nFinally, he is a strong advocate for FOSS, pushing for more widespread adoption back home in Mauritius. ",
+        "tagLine": "Cosplaying as a Sysadmin",
+        "profilePicture": "https://sessionize.com/image/fc02-400o400o1-pWJ66wMfRUTqFMMqbNu1oh.png",
+        "sessions": [
+            {
+                "id": 865724,
+                "name": "Harvester: The Solution To Your Virtualisation Needs"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/Alex_with_a_B",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexandre-bissessur-b9986123a/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://alexbissessur.dev",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Fediverse",
+                "url": "https://moris.social/@AlexB",
+                "linkType": "Other"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "9663a4be-c3f9-4256-840b-c582932561ba",
+        "firstName": "Ashvin",
+        "lastName": "Ramanjooloo",
+        "fullName": "Ashvin Ramanjooloo",
+        "bio": "Ashvin is passionate about technology and software development. During his career, Ashvin has had experience in defining architectural vision and roadmap, modeling APIs and domains and at the same time pitching technical choices to middle and upper management. He also has built and led software development teams in various sectors such as financial debt recovery, insurance, telecommunication, aviation, global logistics, network inventory Ashvin also has keen interest in Domain Driven Design, devops practices and team topologies that improve software delivery performance.",
+        "tagLine": "Senior Solution Architect, Versusmind",
+        "profilePicture": "https://sessionize.com/image/0cf8-400o400o1-hbLoxmSXsNRWfAwh5KTWEQ.jpg",
+        "sessions": [
+            {
+                "id": 876044,
+                "name": "The Shift towards passwordless authentication with Keycloak"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://x.com/ashramanjooloo",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/ashvin-ramanjooloo/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/ashvin-ramanjooloo",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "bb67370e-df20-421e-83b9-6316a7c1a018",
+        "firstName": "Cedric",
+        "lastName": "Sookahet",
+        "fullName": "Cedric Sookahet",
+        "bio": "Cedric Sookahet started his career as a graphic designer and today is head of digital in a development startup. He has always been a geek at heart and spent his childhood playing Sonic the Hedgehog on the Mega Drive, his early teen years playing strategic games on PC (age of empires, warcraft, starcraft to name a few) and most recently playing Indie games, esport titles and MMORPGs. In 2019, Cedric founded the first geek platform in Mauritius, Geekin’ Moris, which has now expanded internationally and is known as We are Geekin’. We are Geekin’ is an online media and community, dedicated to sharing gaming, tech and pop culture news. Cedric has had the opportunity to interview and speak to various gaming studio heads and publishers from the US, Canada, Spain and Lithuania.",
+        "tagLine": "Founder of We are Geekin' ",
+        "profilePicture": "https://sessionize.com/image/ee1d-400o400o1-atty9koavV2Woac26vBq99.jpg",
+        "sessions": [
+            {
+                "id": 874355,
+                "name": "From passion (and no coding background) to making our first game"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/cedricsookahet/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://blog.wearegeek.in",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/cedric-sookahet",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "a189d971-edd8-46d2-a69a-d561a20c681e",
+        "firstName": "Chittesh",
+        "lastName": "Sham ",
+        "fullName": "Chittesh Sham",
+        "bio": "DevOps engineer from Alludo with strong experience in Linux environments, docker containers, AWS cloud and Terraform.",
+        "tagLine": "DevOps Engineer - Alludo [CorelDRAW Graphics Suite]",
+        "profilePicture": "https://sessionize.com/image/143f-400o400o1-PsA2FMpD9Whjs6Ty6vBeLw.jpg",
+        "sessions": [
+            {
+                "id": 866194,
+                "name": "Real-Time Data Processing with Kubernetes and Spark"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/shamchittesh",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "826f4157-067f-471d-bbcf-f9494cb70168",
+        "firstName": "Clifford",
+        "lastName": "Weinmann",
+        "fullName": "Clifford Weinmann",
+        "bio": "Clifford is an IT specialist with experience in a variety of different technologies, and a passion for open source. He comes from a programming background, and is now focussed on platform engineering, modernization and automation.",
+        "tagLine": "CTO, Azul Consulting",
+        "profilePicture": "https://sessionize.com/image/5348-400o400o1-aQeVcZ9HTXL2wqQyM4sWBb.png",
+        "sessions": [
+            {
+                "id": 875478,
+                "name": "How does OpenShift make the developer experience easier?"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/clifford-weinmann/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "6661274d-3550-469e-a5e5-50c77a435c04",
+        "firstName": "Eddy",
+        "lastName": "Lareine",
+        "fullName": "Eddy Lareine",
+        "bio": "Project management with 15+ years of experience in the IT field with proven ability to leverage technology to develop and implement core project plans, based on initial work orders. Experienced in performing risk management activities to minimize project risks.\r\n\r\nAdept at making key decisions and working with other professionals to achieve goals and solve problems. A strong leader who works well under pressure, and exudes positivity. Excellent time management skills.\r\n\r\nHighly experienced in web hosting architecture and management as well as in Web Analytics, AdWords, Social Media Optimisation (SMP), and Search Engine Optimization (SEO).",
+        "tagLine": "La Sentinelle Ltd, IT Director",
+        "profilePicture": "https://sessionize.com/image/5947-400o400o1-nSkrENWyrq7CQ9bvwQYKLx.jpg",
+        "sessions": [
+            {
+                "id": 875336,
+                "name": "Understanding Identity and Access Management (IAM) in Google Cloud Platform (GCP)"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eddylareine/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "70cf7b39-f0a3-462b-a950-a420a01a2da4",
+        "firstName": "Farhaan",
+        "lastName": "Iqbal",
+        "fullName": "Farhaan Iqbal",
+        "bio": "A passionate young tech enthusiast, standing on the shoulders of giants,  driven by a love for exploration, learning, and sharing. By day, I’m a  DevOps Engineer; by night, a curious tinkerer.",
+        "tagLine": "DevOps Engineer Open Source Hardware Enthusiast",
+        "profilePicture": "https://sessionize.com/image/40c8-400o400o1-Pgo9LRUEQPGw7hMf3Fez63.jpg",
+        "sessions": [
+            {
+                "id": 871938,
+                "name": "Let’s build robots, its too easy"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "4d30981f-69b9-40bb-a00d-6a741b200d91",
+        "firstName": "Fawwaaz",
+        "lastName": "Koodruth",
+        "fullName": "Fawwaaz Koodruth",
+        "bio": "As a seasoned cloud developer, specializing in all things Azure with a knack for turning clouds into code. I'm on a perpetual quest for tech adventures, diving headfirst into new technologies like Godot Engine and C#, where creativity knows no bounds. Join me on a journey of innovation and exploration as we navigate the ever-changing landscape of technology together!",
+        "tagLine": "SD Worx Mauritius",
+        "profilePicture": "https://sessionize.com/image/b5b4-400o400o1-HHoPp11Z7jvaCQKiY8Dofe.jpg",
+        "sessions": [
+            {
+                "id": 876026,
+                "name": "The Next Frontier: Exploring the Power of .NET Aspire"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "ba3958ec-7d08-4845-bcb5-2e1774318932",
+        "firstName": "Girish",
+        "lastName": "Mahabir",
+        "fullName": "Girish Mahabir",
+        "bio": "Girish Mahabir is an enthusiastic and passionate Cybersecurity & Infrastructure Specialist with a strong focus on Linux, security automation, and infrastructure hardening. He currently leads a security team, fostering best practices in IDS monitoring, root cause analysis, and threat mitigation. Skilled in SIEM solutions, IAM strategies, vulnerability management, and leveraging open-source technologies, he is driven by his commitment to continuous learning and innovative thinking. He also invests in mentoring teams and delivering technical training sessions, establishing robust security processes that empower enterprises to thrive with confidence.\r\n",
+        "tagLine": "Junior Team Lead Security at OceanDBA",
+        "profilePicture": "https://sessionize.com/image/eb3e-400o400o1-wHzBnse9CLCLfTLG34F7ft.jpg",
+        "sessions": [
+            {
+                "id": 874469,
+                "name": "Building a Zero-Trust Access Management with Teleport"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/girishmahabir",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/girish-mahabir",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/girish.mahabir/",
+                "linkType": "Facebook"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/girish_mahabir/",
+                "linkType": "Instagram"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://oceandba.com/",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/GirishMahabir",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "4f5c532a-b69f-4d47-8b15-da28742f3f83",
+        "firstName": "Hastika",
+        "lastName": "Cheddy",
+        "fullName": "Hastika Cheddy",
+        "bio": "Meet Hastika Cheddy, a seasoned Machine Learning Engineer who has been pivotal in simplifying AI complexities for businesses. With a diverse background in software engineering, machine learning, and penetration testing, Hastika brings a unique blend of technical expertise and strategic insight.\r\n\r\nNoteworthy achievements include Hastika's leadership in creating a comprehensive dashboard, utilizing advanced data analysis techniques and incorporating Matplotlib, Seaborn, and WordCloud for impactful data visualization. In workflow orchestration, she demonstrates proficiency by employing Apache Airflow, Docker, and Spark X, ensuring seamless deployment across diverse environments.",
+        "tagLine": "Machine Learning Engineer",
+        "profilePicture": "https://sessionize.com/image/033a-400o400o1-SWwWvHY1JFPM412hsD44Uf.png",
+        "sessions": [
+            {
+                "id": 836604,
+                "name": "🤖 Agents in Action: Architecture, Tools, and Use Cases"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/hastika-c-2561a5199/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/hastika-cheddy",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "ef7633d0-46b2-4045-bbc3-3dc1fcd55596",
+        "firstName": "Ish",
+        "lastName": "Sookun",
+        "fullName": "Ish Sookun",
+        "bio": "I am a Systems Architect at La Sentinelle Ltd. I contribute to the openSUSE Project in my free time and I maintain Linux mirrors in Mauritius. I also follow policy discussions within the AFRINIC community.",
+        "tagLine": "Systems Architect / La Sentinelle Ltd / openSUSE Contributor",
+        "profilePicture": "https://sessionize.com/image/816b-400o400o1-SXATDiTJQmqwo6Lw9w4QJu.jpg",
+        "sessions": [
+            {
+                "id": 870159,
+                "name": "Panel Discussion: How much of cyber security is enough?"
+            },
+            {
+                "id": 870181,
+                "name": "Exploring the openSUSE Project"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/IshSookun",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/ishsookun/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://sysadmin-journal.com",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/ish-sookun",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "4c563acb-7ae8-4b4d-9ddf-11c19a02b813",
+        "firstName": "Jochen",
+        "lastName": "Kirstätter",
+        "fullName": "Jochen Kirstätter",
+        "bio": "Although living on a tropical island, Jochen Kirstätter is a business owner and entrepreneur in different industry sectors. Mainly operating in the development of tailor-made software solutions since more than 20 years, he is also venturing into the world of cloud computing. You can either meet him at the regular meetups of the Mauritius Software Craftsmanship Community or reach him on X and Mastodon: @JKirstaetter.\r\n\r\nJochen is a Google Developer Expert (GDE) for Google Cloud and a Microsoft Most Valuable Programmer (MVP) for Developer Technologies for several years. He founded the now largest IT community in Mauritius, and organises the annual Developers Conference. Following his interest in cross-platform technologies he is also an organiser of the Google Developer Group (GDG) Mauritius.",
+        "tagLine": "The only frontiers are in your mind | GDE Cloud | Microsoft MVP",
+        "profilePicture": "https://sessionize.com/image/789f-400o400o1-X5FCx6QPW2VuurUmsY4dGB.png",
+        "sessions": [
+            {
+                "id": 831947,
+                "name": "Create a .NET Open Source Library: Lessons Learned"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/jkirstaetter",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jochenkirstaetter/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://jochen.kirstaetter.name/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://jochen.kirstaetter.name/",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/joki",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "37cfa614-39a0-4188-b0a7-3ad1c86b8294",
+        "firstName": "Justin",
+        "lastName": "Kaeser",
+        "fullName": "Justin Kaeser",
+        "bio": "Justin believes in \"Tools before Rules\": \r\nautomating the development toolchain to remove the friction of dealing with manual processes. \r\nHe works on this goal as team lead for the Bazel support in IntelliJ IDEA and as customer success engineer at JetBrains.",
+        "tagLine": "JetBrains / IntelliJ Bazel plugin",
+        "profilePicture": "https://sessionize.com/image/99da-400o400o1-TTRKGmz3EwwufKXdRSY9K9.jpg",
+        "sessions": [
+            {
+                "id": 930892,
+                "name": "Cross-organizational developer productivity"
+            },
+            {
+                "id": 875549,
+                "name": "Start Scalable: Begin Building in Bazel"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/ebenwert",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/justinkaeser/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://www.jetbrains.com",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/justin-kaeser",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "43f66e40-f651-42b7-b7fd-159d9caeae4a",
+        "firstName": "Kavish",
+        "lastName": "Seechurn",
+        "fullName": "Kavish Seechurn",
+        "bio": "Kavish is a highly experienced technical lead in data engineering with a wealth of experience in building and managing data pipelines and utilizing data visualization tools. He is a true \"datanaut\" who navigates through large datasets with ease and surfs data to uncover valuable insights. With a background in multiple industries, including finance, Kavish brings a wealth of knowledge and expertise to the table. His ability to lead a team of data engineers and his commitment to using data to make informed decisions and drive business growth make him a valuable asset to any organization. Connect with Kavish to learn more about how he can help take your data engineering strategy to the next level.",
+        "tagLine": "I'm a  datanaut who navigates through large datasets with ease and surfs data to uncover valuable insight",
+        "profilePicture": "https://sessionize.com/image/2649-400o400o1-Mj7U2gGqeQZVf9rNAz18DD.jpg",
+        "sessions": [
+            {
+                "id": 873445,
+                "name": "Beyond LLMs: The Rise of Small, Efficient AI Models"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kavish-seechurn-78665a261/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/kavish-seechurn",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "7a7c18c9-3908-4fd0-9b45-c01f3aac5137",
+        "firstName": "Keleena",
+        "lastName": "Moorghen",
+        "fullName": "Keleena Moorghen",
+        "bio": "A dynamic recruiter and content creator with a knack for social media. \r\nWith a passion for personal branding and a creative approach, I bring a fresh perspective to the recruitment field. By crafting engaging content and building a strong online presence , I strive to  infuse a spark into the digital landscape",
+        "tagLine": "HR Partner @ Klanik",
+        "profilePicture": "https://sessionize.com/image/b0a0-400o400o1-4rP2h1zk382WqxYhq8sq8d.png",
+        "sessions": [
+            {
+                "id": 867065,
+                "name": "Behind the LinkedIn Curtain: How the Algorithm REALLY Works"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/keleena-moorghen",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "1b125e8e-6f6f-41e2-a123-1d1f5fbd9c4a",
+        "firstName": "Kelly",
+        "lastName": "Quirin",
+        "fullName": "Kelly Quirin",
+        "bio": "Passionate software engineer with over 15 years of experience, I have honed my skills across the complete project life cycle, from requirements analysis to design, development, and testing. My dedication to crafting efficient, scalable, and innovative solutions has driven my career trajectory, allowing me to thrive in dynamic and challenging environments. With a steadfast commitment to excellence, I continuously seek to push the boundaries of technology and deliver impactful software solutions.",
+        "tagLine": "Lead Software Engineer Consultant at Klanik Mauritius",
+        "profilePicture": "https://sessionize.com/image/3d85-400o400o1-WWR8rT5QkoxTnB9CMffsJP.png",
+        "sessions": [
+            {
+                "id": 867083,
+                "name": "Unlock the Power of AI: Build Smart Apps with .NET and DeepSeek R1"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kelly-quirin/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "477c56a0-d60c-42c6-beef-fc009a020fb8",
+        "firstName": "Kherin",
+        "lastName": "Bundhoo",
+        "fullName": "Kherin Bundhoo",
+        "bio": "Kherin Bundhoo is a passionate software engineer and AI practitioner from Mauritius, with a strong background in full-stack development, DevOps, and machine learning. He holds a Master's degree in Artificial Intelligence and has worked extensively with Python, Django, React, and cloud-native technologies to build scalable, data-driven applications.\r\n\r\nKherin's technical interests span infrastructure automation with tools like Docker, Ansible, and Terraform, as well as cutting-edge AI capabilities such as Retrieval-Augmented Generation (RAG), vector search, and generative models. He actively explores real-world applications of AI, including document understanding for legal and medical domains, and mobile app development with Python-based frameworks like Flet.\r\n\r\nBeyond software development, Kherin is an avid endurance runner and a dynamic public speaker, having delivered talks on topics ranging from Semgrep and software security to MLOps for Generative AI. His work often bridges practical problem-solving with emerging technology trends, making him a compelling voice in the tech community.\r\n\r\nWhether he's automating CI/CD pipelines, designing AI-powered search systems, Kherin brings clarity, precision, and creativity to every project he touches.",
+        "tagLine": "AI Engineer at Telesio France",
+        "profilePicture": "https://sessionize.com/image/4166-400o400o1-SfmQ7pB6pc2ZvbvnowmswD.jpg",
+        "sessions": [
+            {
+                "id": 873795,
+                "name": "Exploring OpenData Mauritius with Python Marimo"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/KherinB",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://kherin.com/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/kherin",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "a52fead5-fedc-48da-94bf-192f1c171681",
+        "firstName": "Loic",
+        "lastName": "Forget",
+        "fullName": "Loic Forget",
+        "bio": "The biggest geek in Mauritius (literally)!! Loïc goes against the evil forces of traditionalists to save the island & protect nerd-castle La Sentinelle.",
+        "tagLine": "la Sentinelle",
+        "profilePicture": "https://sessionize.com/image/39c2-400o400o1-YXPDouUnf3dcxkYJRdTYSZ.jpg",
+        "sessions": [
+            {
+                "id": 837198,
+                "name": "Emojis Emojis Everywhere with POV"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/kou1ack",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://linkedin.com/in/aimelavideo/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com/boycriedwoof/",
+                "linkType": "Instagram"
+            },
+            {
+                "title": "Blog",
+                "url": "https://linktr.ee/Be1Mari",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://www.lasentinelle.mu",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/loic-forget",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "336671e4-3f17-4dbe-ab1c-20a8b38cc1a5",
+        "firstName": "Lovelesh",
+        "lastName": "Beeharry",
+        "fullName": "Lovelesh Beeharry",
+        "bio": "- Founder and President of MSTQB\r\n- Lead Automation Test Engineer at iQera IO\r\n- International Conference Speaker and Moderator\r\n- CommonWealth Executive MBA\r\n- Bachelor of Engineering (Computer Science)\r\n- 12 years of experience in software testing\r\n- Experienced in manual testing, automation testing & performance testing.\r\n- Experienced in development of automation test framework.\r\n- ISTQB® Trainer",
+        "tagLine": "President of Mauritian Software Testing Qualifications Board (MSTQB)",
+        "profilePicture": "https://sessionize.com/image/7a14-400o400o1-SRjmm23XrfYVrB9VQU9ydj.jpg",
+        "sessions": [
+            {
+                "id": 843960,
+                "name": "Where mathematics meets software testing"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/lovelesh-beeharry/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/blovelesh",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "4dc79966-a989-45ff-b2e7-6b6f3a5433d0",
+        "firstName": "Mahima",
+        "lastName": "Ramgolam",
+        "fullName": "Mahima Ramgolam",
+        "bio": "I craft beautiful, interactive websites as a front-end developer. Driven by a passion for Vue.js and Tailwind CSS, I'm constantly learning and improving my front-end skills. I also enjoy being part of the frontend.mu community and contributing to open source projects!",
+        "tagLine": "Frontend Developer",
+        "profilePicture": "https://sessionize.com/image/1592-400o400o1-sGLNhFPp16PyjnmXRes3sj.jpg",
+        "sessions": [
+            {
+                "id": 874500,
+                "name": "Web Development without headache using Nuxt & Vue"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://x.com/ramgolam_mahima",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/mahima-ramgolam-240572138",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://mahima.ramgolam.com",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/mahima-ramgolam",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "2cfd825e-9a05-47b9-a7bf-d5c2f4f8b74a",
+        "firstName": "Marius",
+        "lastName": "Rabenarivo",
+        "fullName": "Marius Rabenarivo",
+        "bio": "Computer Science enthusiast and Clojure Developer & compulsive learner about Computer Science and Computer programming subjects.",
+        "tagLine": "Computer Science enthusiast and Software Engineer @Cloudsure Ltd",
+        "profilePicture": "https://sessionize.com/image/3e2e-400o400o1-hmELLCAg1Z5pV6sHbeGgZw.jpg",
+        "sessions": [
+            {
+                "id": 875074,
+                "name": "An Overview of Graph Algorithms and graph mining"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "http://twitter.com/MariusRabenariv",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/mariusrabenarivo/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "http://lambda.mg",
+                "linkType": "Blog"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "50f6bd48-8b68-4464-8a92-76292bf3f7dd",
+        "firstName": "Matthew",
+        "lastName": "Hood",
+        "fullName": "Matthew Hood",
+        "bio": "Having been a developer, business owner, and product lead, Matthew brings a varied set of skills to the role of Product Director for the Cube Marketplace and Hexagon Shared Service initiatives operated by Ringier South Africa for the Global Tech and Data unit inside Ringier Switzerland.  ",
+        "tagLine": "Product Director - Ringer South Africa",
+        "profilePicture": "https://sessionize.com/image/7f13-400o400o1-YBcJ19KZKxi3hcobj53f5Z.jpg",
+        "sessions": [
+            {
+                "id": 882635,
+                "name": "Case Studies in Traffic Acquistion"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/matthew-hood-845b9030/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "c6290cf3-c046-41b7-9f5f-d47d05c55baf",
+        "firstName": "Mervyn",
+        "lastName": "Manilall",
+        "fullName": "Mervyn Manilall",
+        "bio": "Creating value everyday",
+        "tagLine": "Microsoft MVP | C# Corner MVP| Founder of vroume.com | Senior Software engineer",
+        "profilePicture": "https://sessionize.com/image/bc37-400o400o1-3ZLq7ztRfZp5u16BhWGvv.jpg",
+        "sessions": [
+            {
+                "id": 873835,
+                "name": "Shift-Left Testing: Bringing Teams into the QA Process with Azure DevOps"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/MervynManilall",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/mervyn-manilall/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://mervyn-manilall.medium.com/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://www.vroume.com",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/mervyn-manilall",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "4ed66d71-84b0-4175-afe9-c3eb48b4eb4f",
+        "firstName": "Namita",
+        "lastName": "Sham",
+        "fullName": "Namita Sham",
+        "bio": "Namita Sham is an accomplished cybersecurity professional who has spearheaded impactful initiatives, including awareness campaigns and educational outreach programs, to empower individuals and businesses to navigate the digital world securely. Her remarkable contributions to the field earned her the prestigious Golden award for Cybersecurity Leader of the Year 2024 award from Women in Tech Africa, Mauritius Chapter. Driven by an insatiable curiosity and a passion for problem-solving, Namita embarked on her cybersecurity journey with a clear mission: to outsmart cyber threats and safeguard the digital infrastructures of organizations.",
+        "tagLine": "Cybersecurity Professional",
+        "profilePicture": "https://sessionize.com/image/4729-400o400o1-cR1HXkioN1F2jbuAYWrhT.png",
+        "sessions": [
+            {
+                "id": 875946,
+                "name": "Scooby-Doo and the Malware Mystery"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/namitasham/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/namita-sham",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "e4d51ad0-51f7-44bc-ade2-8c7250bb5400",
+        "firstName": "Nathan",
+        "lastName": "Mangar",
+        "fullName": "Nathan Mangar",
+        "bio": "Nathan is a guy that loves anything code and hardware related. His company Thundergear Technologies LTD aka thundergear.io specializes in open hardware, print-on-demand and e-commerce solutions.",
+        "tagLine": "Director of thundergear.io",
+        "profilePicture": "https://sessionize.com/image/0344-400o400o1-scoEBotE1EBBY6imAqHVmD.jpg",
+        "sessions": [
+            {
+                "id": 874842,
+                "name": "Building an E-Commerce Store That Can Handle Growth"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/atech5122",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://mu.linkedin.com/in/nathan-sunil-mangar-a43283133",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://chromico.dev",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://thundergear.io",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/nathan-mangar",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "e587887c-dd0a-4517-9271-2ab116e282df",
+        "firstName": "Neervesh",
+        "lastName": "Gokhool",
+        "fullName": "Neervesh Gokhool",
+        "bio": "Student at Open University if Mauritius",
+        "tagLine": "Student",
+        "profilePicture": "https://sessionize.com/image/5773-400o400o1-YRY35o9o5KU1isN9ceEkTz.jpg",
+        "sessions": [
+            {
+                "id": 876115,
+                "name": "Ctrl+C & Ctrl+V Your Machine: Standardizing Dev Environments with Docker & VS Code"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "bd1f4850-5bcb-4c8c-9bd3-611efc60a61a",
+        "firstName": "Nicholas",
+        "lastName": "Baard",
+        "fullName": "Nicholas Baard",
+        "bio": "I'm a passionate AI Engineer and Data Scientist at Ringier South Africa, specializing in deploying large-scale AI solutions in production. With a strong foundation in machine learning, deep learning, and LLM development, I focus on advancing AI engineering practices, optimizing inference workflows, and ensuring robust model evaluation. My research background includes work on reinforcement learning, and I actively explore the intersection of AI, data science, and real-world impact.",
+        "tagLine": "Data Scientist | AI Engineer - Ringier South Africa",
+        "profilePicture": "https://sessionize.com/image/4ed2-400o400o1-GTAj9pWdJJz1ZUTh2nAcy5.jpg",
+        "sessions": [
+            {
+                "id": 889914,
+                "name": "LLMs Lie: How We Built a Fact-Checked, Safe Content Pipeline"
+            },
+            {
+                "id": 889912,
+                "name": "LLMs at Enterprise Scale: Lessons They Don’t Teach in Tutorials"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/nicholas-baard-7227181b5/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "84b950ee-81ab-4aea-a5f2-f8cda15a69e8",
+        "firstName": "Nirvan",
+        "lastName": "Pagooah",
+        "fullName": "Nirvan Pagooah",
+        "bio": "Nirvan is an agile Engineering Manager with expertise in R&D, scalable software architecture, full-stack development, and building technology-agnostic solutions. A tech disruptor at heart, he thrives on crafting elegant systems that scale seamlessly.\r\n\r\nAt KLANIK (Mauritius), he drives engineering strategy and ensures the successful delivery of complex global projects across multiple geographies. He has led high-impact initiatives with distributed teams in Mauritius, France, India, and Madagascar. His experience spans DevOps culture, infrastructure design, software delivery, team leadership, QA strategy, and end-to-end software lifecycle management.\r\n\r\nA passionate advocate for Open Source, Nirvan actively contributes to the Mauritian tech ecosystem and to the local developer community.",
+        "tagLine": "Engineering Manager @ KLANIK Mauritius",
+        "profilePicture": "https://sessionize.com/image/8e82-400o400o1-TjL9aV8qW2w7kDAcBLmfJS.jpg",
+        "sessions": [
+            {
+                "id": 875450,
+                "name": "Practical Guide to Technical Debt and How to Manage It"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://www.twitter.com/nirvanpagooah",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://linkedin.com/in/tejaspagooah/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "http://blog.nirvan.pagooah.com",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/tejas-pagooah",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "38da18c7-eed7-46ec-9bac-ce60db8a1908",
+        "firstName": "Nisha",
+        "lastName": "Appanah",
+        "fullName": "Nisha Appanah",
+        "bio": "Nisha has over 15 years experience in software development, realizing the dreams of customers in Europe and Africa. Holder of two Master's degrees in International Business and Computational Science and Engineering.",
+        "tagLine": "Founder @ Aplica",
+        "profilePicture": "https://sessionize.com/image/1159-400o400o1-HhyvVQHFN43MiV2SdmL5pA.jpg",
+        "sessions": [
+            {
+                "id": 875424,
+                "name": "Exploring AI Agents: From Fundamentals to Implementation"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://mu.linkedin.com/in/nishaappanah",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/nisha-appanah",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "0834ce8d-76cf-489b-b778-61ff8fa6ed5e",
+        "firstName": "Noor",
+        "lastName": "Yadallee",
+        "fullName": "Noor Yadallee",
+        "bio": "Has-been frog in a well, on a quest to broaden his horizons, face challenges head on and hoard new experiences.",
+        "tagLine": "Innovation enthusiast",
+        "profilePicture": "https://sessionize.com/image/7af4-400o400o1-48THqdhppDYbHTApRNwYMu.png",
+        "sessions": [
+            {
+                "id": 857708,
+                "name": "We need to talk about Google's Jax"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/y-noor/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "9982b5fe-314d-48e5-94c2-0439a8bc674f",
+        "firstName": "Obumuneme",
+        "lastName": "Nwabude",
+        "fullName": "Obumuneme Nwabude",
+        "bio": "Obum is a Google Developer Expert (GDE) in the Dart & Flutter category. He is also a Full-Stack Blockchain and Web developer with professional frontend, backend, and web3 experiences. He has written several articles on Flutter in various publications and volunteers in tech communities. ",
+        "tagLine": "GDE Dart & Flutter",
+        "profilePicture": "https://sessionize.com/image/2af8-400o400o1-n9ubZQQGhJWXrC9q9iHovJ.jpg",
+        "sessions": [
+            {
+                "id": 874389,
+                "name": "How Flutter is Platform-Agnostic"
+            },
+            {
+                "id": 876046,
+                "name": "Securing Mobile Apps: Keeping Hackers Out and Users Safe"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/obumnwabude",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://linkedin.com/in/obumnwabude",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://facebook.com/obumnwabude",
+                "linkType": "Facebook"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://instagram.com/obumnwabude",
+                "linkType": "Instagram"
+            },
+            {
+                "title": "Blog",
+                "url": "https://obum.me",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/obumnwabude",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "f72d6333-ba68-43df-be79-0e42c7162631",
+        "firstName": "Om",
+        "lastName": "Gokhool",
+        "fullName": "Om Gokhool",
+        "bio": "Experienced Solution Architect with a demonstrated history of working in the information technology and services industry. Skilled in Communication, Time Management, Teamwork, Research and Development (R&D), and Creative Problem Solving. Strong engineering professional with a Master's degree focused in Software Project Management from University of Mauritius. Currently working at Infosys as a Senior Consultant, developing digital solutions and managing projects.",
+        "tagLine": "Infosys, Senior Consultant",
+        "profilePicture": "https://sessionize.com/image/d417-400o400o1-XsqBkLCDEaeTpdrwbkjcHW.jpg",
+        "sessions": [
+            {
+                "id": 876115,
+                "name": "Ctrl+C & Ctrl+V Your Machine: Standardizing Dev Environments with Docker & VS Code"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/omgokhool",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/omdeep-gokhool-75b66b167/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://omgokhool.com/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/om-gokhool",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "7d500fb7-5189-407e-bf5f-39019dabf6f1",
+        "firstName": "Rachel",
+        "lastName": "Rajiah",
+        "fullName": "Rachel Rajiah",
+        "bio": "With years of experience as an HR professional and a deep commitment to personal growth, Rachel is not only a strategist in the world of people but also deeply engaged in well-being.",
+        "tagLine": "HR Site Manager @ KLANIK MAURITIUS",
+        "profilePicture": "https://sessionize.com/image/0435-400o400o1-L3VMYaHPaQtzrUPHdCFAzH.jpg",
+        "sessions": [
+            {
+                "id": 867065,
+                "name": "Behind the LinkedIn Curtain: How the Algorithm REALLY Works"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "a74e488a-4c89-4f94-b1a2-60230c88f3aa",
+        "firstName": "Samanta",
+        "lastName": "Luchoo",
+        "fullName": "Samanta Luchoo",
+        "bio": " .NET Senior Software Engineer with 3 years of work experience in the industry. ",
+        "tagLine": "Senior Software Engineer Consultant",
+        "profilePicture": "https://sessionize.com/image/89c9-400o400o1-9G6WkqqZgj9HaxPU3F5MPm.jpg",
+        "sessions": [
+            {
+                "id": 867083,
+                "name": "Unlock the Power of AI: Build Smart Apps with .NET and DeepSeek R1"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/samanta-luchoo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/samanta-luchoo",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "f60af971-bfc5-4735-8f27-68b71de0e2f8",
+        "firstName": "Samuel",
+        "lastName": "Abada",
+        "fullName": "Samuel Abada",
+        "bio": "Samuel is a Google Developer Expert for Flutter and Dart and leads the mobile engineering efforts at Shuttlers Mobility. With 8 years of experience in the software industry, Samuel has spent the last 6 years focusing on mobile development, particularly with Flutter. They are a co-organizer of the Flutter Lagos and Flutter Akure communities, as well as the Google Developers Group Akure.\r\n\r\nPassionate about open-source technologies and building developer tooling, Samuel enjoys sharing knowledge through technical articles and speaking at events and conferences. Outside of coding, Samuel is an avid gamer, lover of anime.",
+        "tagLine": "Google Developer Expert, Flutter & Dart",
+        "profilePicture": "https://sessionize.com/image/2e65-400o400o1-aUVsgQJAGE1aarDyjt5fk8.png",
+        "sessions": [
+            {
+                "id": 874389,
+                "name": "How Flutter is Platform-Agnostic"
+            },
+            {
+                "id": 876046,
+                "name": "Securing Mobile Apps: Keeping Hackers Out and Users Safe"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/mastersam_",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/abada-samuel",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://medium.com/@codefarmer",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/codefarmer",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "8a2e498b-c50c-4078-a906-92d49e81c792",
+        "firstName": "Samuel",
+        "lastName": "Arogbonlo",
+        "fullName": "Samuel Arogbonlo",
+        "bio": "Samuel is a Senior Platform Engineer and Filecoin Infrastructure lead at ChainSafe Systems, a leading blockchain research and development company. He has built software and infrastructure solutions for almost a decade for several industries, including fintech, healthtech, AI companies, and of course, most recently web3. He has the flare for developer communities, platform engineering, infrastructure, cloud, DevOps, and predominantly software. ",
+        "tagLine": "Snr Infrastructure Engineer | Author | Podcaster | DevOps | Site Reliability | Platform | Blockchain Node Operator",
+        "profilePicture": "https://sessionize.com/image/c7fb-400o400o1-G6kdxEPh4JGFnGp6hGqi6F.jpg",
+        "sessions": [
+            {
+                "id": 835898,
+                "name": "Building Unbreakable Linux Systems Through Strategic Failure"
+            },
+            {
+                "id": 835896,
+                "name": "All About AI-Powered Linux Administration"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://x.com/samuelarogbonlo",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/samuelarogbonlo/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://medium.com/@samuelarogbonlo",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://p2p.org",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/samuelarogbonlo",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "d802c569-2764-4a8c-ac90-4dec8e3c3f41",
+        "firstName": "Sandeep",
+        "lastName": "Ramgolam",
+        "fullName": "Sandeep Ramgolam",
+        "bio": "Lead Organizer of frontend.mu passionate about technology & education.\r\nI have fun with CSS, Gardenining, Linux and Dota2.\r\n",
+        "tagLine": "Livestorm, Senior Front-End Engineer",
+        "profilePicture": "https://sessionize.com/image/f39e-400o400o1-pp1182tWpDRfuZ9WKcyScp.png",
+        "sessions": [
+            {
+                "id": 874447,
+                "name": "Web Browsers - History & Future"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://www.twitter.com/__sun__",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sandeepramgolam/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://sandeep.ramgolam.com",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/sandeep-ramgolam",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "bbc117b8-c13f-421d-8451-b7f7ba11acd0",
+        "firstName": "Sanjana",
+        "lastName": "Ramchurun",
+        "fullName": "Sanjana Ramchurun",
+        "bio": "Sanjana is a Salesforce developer at Spoon Consulting with a passion for building scalable, maintainable, and dynamic components. With a background in technical systems thinking and an eye for efficiency, she enjoys crafting solutions that bridge business needs with smart architecture. She’s currently working on a range of automation-heavy Salesforce implementations and enjoys sharing insights from real-world projects.",
+        "tagLine": "Salesforce Developer & IT Consultant @ Spoon Consulting",
+        "profilePicture": "https://sessionize.com/image/2a46-400o400o1-nBeHFH9MVDM15EoCAkvxuw.jpg",
+        "sessions": [
+            {
+                "id": 931801,
+                "name": "Dynamic LWCs with JSON: Designing Reusable and Configurable Components in Salesforce"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sramchurun/",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "107327be-a539-4fae-8253-9f18741812db",
+        "firstName": "Sebastien",
+        "lastName": "Stormacq",
+        "fullName": "Sebastien Stormacq",
+        "bio": "As Developer Experience Engineer @ AWS, Seb is inspiring builders to unlock the value of the AWS cloud, using his secret blend of passion, enthusiasm, customer advocacy, curiosity, and creativity. Seb is focusing on  communities and technologies on AWS. He is a regular author ✍️ on the AWS News Blog, a public speaker 📣 at international conferences, and a podcaster with the weekly \"podcast 🎙AWS en 🇫🇷\" and \"AWS Developers Podcast\". Before joining the AWS Developer Experience team, he built & lead the AWS Technical Training team in EMEA, then he built & lead the Alexa Solution Architecture team in UK, France, Italy and Spain.",
+        "tagLine": "Developer Experience Engineer, AWS",
+        "profilePicture": "https://sessionize.com/image/3380-400o400o1-KgPvbkJ7ZiZboFTzxF4JZb.jpg",
+        "sessions": [
+            {
+                "id": 835847,
+                "name": "The Art of Transforming a Foundation Model into a Domain Expert"
+            },
+            {
+                "id": 835866,
+                "name": "Swift, Server-Side, Serverless"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/sebsto",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sebastienstormacq/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://aws.amazon.com/blogs/aws/author/stormacq/",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Company Website",
+                "url": "https://aws.amazon.com",
+                "linkType": "Company_Website"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/sebastien-stormacq",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "1ad5cb40-0f33-4b33-ab8d-415a5febf690",
+        "firstName": "Vanessa",
+        "lastName": "V.Chellen ",
+        "fullName": "Vanessa V.Chellen",
+        "bio": "Directeur technique chez Extension Interactive. J’habite l’univers PHP depuis 16 ans et l’ai suivi/soutenu dans son évolution de PHP 4 à maintenant...  Spécialisé sur Symfony, Drupal et Prestashop, j’adore partager ma passion du code autour de moi.",
+        "tagLine": "CTO, Extension Interactive",
+        "profilePicture": "https://sessionize.com/image/c303-400o400o1-5jbVeX9kd7wT4rVoPe2oj.jpg",
+        "sessions": [
+            {
+                "id": 872600,
+                "name": "Eco-conception et site web, les bests practices"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/VanessaChellen",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/vanessa-v-chellen-a8ab3125/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://twitter.com/VanessaChellen",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/vanessa",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "32c9a82a-2d73-4148-808b-2efea03d07e3",
+        "firstName": "Veekesh",
+        "lastName": "Pydannah",
+        "fullName": "Veekesh Pydannah",
+        "bio": "Veekesh Pydannah is a Salesforce IT Consultant at Spoon Consulting Ltd, known for bringing clarity and innovation to complex challenges. With a passion for driving impactful solutions, he empowers teams to embrace change with confidence.",
+        "tagLine": "Salesforce Developer & Confirmed IT Consultant @ Spoon Consulting",
+        "profilePicture": "https://sessionize.com/image/ec8a-400o400o1-XQnHpuo7ZGR5rqLqpbS3hZ.jpg",
+        "sessions": [
+            {
+                "id": 931801,
+                "name": "Dynamic LWCs with JSON: Designing Reusable and Configurable Components in Salesforce"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/veekesh-pydannah-4546341a0",
+                "linkType": "LinkedIn"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "cf415be6-0558-4411-aa4d-dee4f0648547",
+        "firstName": "Vidush H.",
+        "lastName": "Namah",
+        "fullName": "Vidush H. Namah",
+        "bio": "He is a nomad of the geek world - traveling through various technologies yet never settling. He also writes really dramatic biographies.",
+        "tagLine": "ORION CONSULTING PRIVATE LTD",
+        "profilePicture": "https://sessionize.com/image/7a58-400o400o1-74ZgwsGmwrV1djFxabBVG.png",
+        "sessions": [
+            {
+                "id": 876063,
+                "name": ".NET Blazor + Firebase: Starting cheap"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/vnamah/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Blog",
+                "url": "https://vnsnippets.github.io",
+                "linkType": "Blog"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/vnamah",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "80b07936-76ef-4273-9a2f-396ff681dfb4",
+        "firstName": "Vincent",
+        "lastName": "Chu",
+        "fullName": "Vincent Chu",
+        "bio": "| Cloud Evangelist | \r\n\r\nA dynamic cloud engineer skilled in multi-cloud strategy development, leading cloud migration projects, and implementing robust security measures to ensure data protection across complex cloud environments, with a passion to explore cloud market trends and empowering other individuals.\r\n\r\nMinasan yōkoso, oaidekiteureshīdesu",
+        "tagLine": "Cloud Engineer @ Maureva - Cloud Evangelist",
+        "profilePicture": "https://sessionize.com/image/7612-400o400o1-3uCv6nUvF2K7Zju9duHJvN.png",
+        "sessions": [
+            {
+                "id": 863172,
+                "name": "Microsoft Fabric: A New Era for Business Intelligence?"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/vincent-chu-wai-chow/",
+                "linkType": "LinkedIn"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/vchu",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    },
+    {
+        "id": "8bbe720c-a313-49a4-b6fd-f488669363eb",
+        "firstName": "William",
+        "lastName": "Brander",
+        "fullName": "William Brander",
+        "bio": "\r\n\r\nA professional geek, William works for Particular Software writing amazing software like NServiceBus. Passionate about the web, he is engaged in a sordid love affair with JavaScript, and spends most of his free time trying to convince others of it’s beauty and elegance.\r\n\r\nWhen not behind his laptop hacking away, this amateur beer enthusiast can often be found playing boardgames or drinking cold-brew coffee.",
+        "tagLine": "Distributed Systems Bricklayer",
+        "profilePicture": "https://sessionize.com/image/5e79-400o400o1-DRmWQKGWDJfA1coaWnCgab.jpg",
+        "sessions": [
+            {
+                "id": 842856,
+                "name": "Secure your Modular Monolith by pretending it's a cat"
+            },
+            {
+                "id": 842852,
+                "name": "Top 5 techniques for building the worst microservice system ever"
+            }
+        ],
+        "isTopSpeaker": false,
+        "links": [
+            {
+                "title": "X (Twitter)",
+                "url": "https://twitter.com/WilliamBZA",
+                "linkType": "Twitter"
+            },
+            {
+                "title": "Sessionize",
+                "url": "https://sessionize.com/williambza",
+                "linkType": "Sessionize"
+            }
+        ],
+        "questionAnswers": [],
+        "categories": []
+    }
+]
