@@ -1,1 +1,25 @@
 @import "agenda";
+
+@keyframes dance {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+
+  25% {
+    transform: translateY(-8px) rotate(-5deg) scale(1.05);
+  }
+
+  50% {
+    transform: translateY(0) rotate(5deg) scale(1);
+  }
+
+  75% {
+    transform: translateY(-8px) rotate(-5deg) scale(1.05);
+  }
+}
+
+.animate-dance {
+  animation: dance 1.8s ease-in-out infinite;
+}
