@@ -3,8 +3,8 @@
 @section('content')
   <div class="page--agenda" x-data="{ selectedOption: 'thursday' }">
 
-    <section class="bg-gradient-to-r from-sky-400 to-sky-300 pt-10 pb-5">
-      <section class="pt-5 pb-10 max-w-4xl px-3 mb-7 mx-auto">
+  <section class="bg-gradient-to-r from-sky-400 to-sky-300 pt-10 pb-5">
+      <section class="pt-5 pb-10 max-w-4xl px-3 mb-7 mt-15 mx-auto">
         <h1 class="text-center mt-1 font-devcon text-purple uppercase font-black mb-1 text-6xl">Agenda 📣</h1>
         <p class="text-center text-white font-dm max-w-3xl text-sm sm:text-lg">Step into a world of learning, collaboration, and breakthrough ideas that will fuel your innovation and growth.</p>
       </section>
@@ -144,15 +144,15 @@
       </div>
     </section>
     <section class="mt-6 px-2 max-w-7xl mx-auto border-t-1 border-sky-200 pt-5 pb-3">
-      <div class="font-content text-sky-300 font-medium uppercase">Selected agenda: <span x-text="selectedOption"></span></div>
+      <div class="font-content text-sky-300 font-black uppercase">Selected agenda: <span x-text="selectedOption"></span></div>
     </section>
     <section class="mt-2 max-w-7xl px-2 mx-auto flex">
 
       <div class="sessions__column">
 
         <div class="tracks__container grid grid-cols-[70px_repeat(3,_1fr)] gap-2 mb-10 h-12" id="rooms-bar">
-          <div class="track__title text-center bg-sky-200 text-sky-500 items-center justify-items-center justify-center text-1xl flex uppercase font-bold rounded-md h-12">
-           🔀 ⏱️
+          <div class="track__title text-center bg-sky-200 text-sky-500 items-center justify-items-center justify-center text-2xl flex uppercase font-bold rounded-md ">
+           <span style="margin-bottom: -6px; rotate: -40deg;">⏱️</span><span style="margin-bottom: 6px; rotate: -40deg;">🏃‍♂️‍➡️</span>
           </div>
           <div class="track__title text-center bg-[#9F00FF] text-white py-4 uppercase font-bold rounded-md">
             Educator 1 😄
@@ -191,7 +191,7 @@
               @if($key == 'Thursday')
                 @foreach($value as $key => $session)
                   <a
-                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
+                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-109"
                     style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
                     data-room="{{ $session['room'] }}"
                     href="/agenda/{{ $session['id'] }}"
@@ -204,7 +204,7 @@
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
                           <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-9 h-9 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div class="font-light text-slate-500">{{ $speaker['name'] }}</div>
+                          <div class="font-regular text-slate-500">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
@@ -221,7 +221,7 @@
               <div
                 class="time__track"
                 style="grid-area: {{ calculateTimePlacement($time) }}"
-              ><span class="time__tag px-2 py-2 bg-sky-400 font-bold center rounded-md inline-flex">
+              ><span class="time__tag px-2 py-2 bg-sky-100 font-medium text-sky-500 center rounded-md inline-flex">
                 {{$time}}
                 </span>
                 <div class="line"></div>
@@ -231,7 +231,7 @@
             @foreach($groupedSessions as $key => $value)
               @if($key == 'Friday')
                 @foreach($value as $key => $session)
-                  <a
+                <a
                     class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
                     style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
                     data-room="{{ $session['room'] }}"
@@ -245,7 +245,7 @@
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
                           <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-9 h-9 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div class="font-light text-slate-500">{{ $speaker['name'] }}</div>
+                          <div class="font-regular text-slate-500">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
@@ -262,7 +262,7 @@
               <div
                 class="time__track"
                 style="grid-area: {{ calculateTimePlacement($time) }}"
-              ><span class="time__tag px-2 py-2 bg-sky-400 font-bold center rounded-md inline-flex">
+              ><span class="time__tag px-2 py-2 bg-sky-100 font-medium text-sky-500 center rounded-md inline-flex">
                 {{$time}}
                 </span>
                 <div class="line"></div>
@@ -272,7 +272,7 @@
             @foreach($groupedSessions as $key => $value)
               @if($key == 'Saturday')
                 @foreach($value as $key => $session)
-                  <a
+                <a
                     class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
                     style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
                     data-room="{{ $session['room'] }}"
@@ -286,7 +286,7 @@
                       @foreach($session['speakers'] as $key => $speaker)
                         <div class="speaker--headshot flex items-center mb-1">
                           <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-9 h-9 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div class="font-light text-slate-500">{{ $speaker['name'] }}</div>
+                          <div class="font-regular text-slate-500">{{ $speaker['name'] }}</div>
                         </div>
                       @endforeach
                     </div>
