@@ -36,6 +36,7 @@
             gtag('config', 'G-H1NBF1RG65');
         </script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
         @vite(['resources/js/app.js', 'resources/css/app.css', 'resources/scss/app.scss'])
     </head>
     <body>
