@@ -1,13 +1,13 @@
 <div>
-    <div class="bg-gradient-to-r from-[#9F00FF] to-[#00B0FF] shadow-md fixed z-10  top-0 w-full" x-data="{ open: false}">
+    <div class="bg-sky-500/90 backdrop-blur-sm shadow-sm fixed z-10 top-0 w-full" x-data="{ open: false}">
         <div class="max-w-7xl mx-auto px-4 lg:px-4">
             <div class="flex flex-row justify-between py-2">
                 <div>
                     <a href="/" class="flex flex-row gap-3 lg:gap-4 items-center">
                         <img class="h-11" src="/images/mscc-logo-inverted.svg" />
                         <div class="flex flex-col">
-                            <p class="mt-1 text-sm md:text-lg lg:text-xl font-devcon text-white">Developers Conference</p>
-                            <p class="-mt-1 text-sm md:text-lg lg:text-xl font-devcon text-yellow-400 animate-dance">2025</p>
+                            <p class="mt-1 text-sm md:text-lg lg:text-xl font-devcon text-white text-shadow-md">Developers Conference</p>
+                            <p class="-mt-1 text-sm md:text-lg lg:text-xl font-devcon text-yellow-400 text-shadow-md animate-dance">2025</p>
                         </div>
                     </a>
                 </div>
@@ -17,7 +17,6 @@
                     <a class="hidden p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-content text-gray-50" href="https://game.mscc.mu/" target="_blank">Dodge Dodo</a>
                     <a class="p-2 bg-[#FAEA48] transition duration-700 hover:bg-[#FAB71F] hover:ease-in-out rounded-md uppercase text-[#BF1F2E] text-sm font-bold font-button font-content" href="https://devcon2024.e-forms.mu/" target="_blank">Register</a>
                 </div>
-
                 <!-- Mobile Menu Button -->
                 <div class="ml-10 space-x-4 lg:hidden grid place-items-center">
                     <button class="inline-block p-1 border border-2 border-white rounded-md text-base font-medium text-white hover:bg-opacity-75" @click="open = ! open">
