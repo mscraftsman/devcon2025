@@ -25,10 +25,10 @@ class AgendaSingleViewController extends Controller {
 
             foreach($session as $s) {
                 $title = $title . " | " . $s['title'];
-                break; 
+                break;
             }
 
-		    return view('AgendaSingle', compact('session', 'sessionsArr', 'title'));
+		    return view('agendaSingle', compact('session', 'sessionsArr', 'title'));
         }
         if (empty($result)) {
             return response()->json(['message' => 'Object not found'], 404);
