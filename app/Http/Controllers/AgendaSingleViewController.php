@@ -28,7 +28,7 @@ class AgendaSingleViewController extends Controller {
                 break; 
             }
 
-		    return view('session', compact('session', 'sessionsArr', 'title'));
+		    return view('AgendaSingle', compact('session', 'sessionsArr', 'title'));
         }
         if (empty($result)) {
             return response()->json(['message' => 'Object not found'], 404);
