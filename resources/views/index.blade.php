@@ -4,7 +4,7 @@
 <section class="relative shadow-lg">
     <div class="inset-0 z-0 bg-gradient-to-r from-[#9F00FF] to-[#00B0FF]">
         <div class="">
-            <img src="/images/hero-emojis.png" class="w-full h-auto shadow-lg" />
+            <img src="{{ asset('images/hero-emojis.png') }}" class="w-full h-auto shadow-lg" />
         </div>
     </div>
 
@@ -28,8 +28,8 @@
     </div>
 
     <div class="absolute top-6 lg:top-1/5 left-1/2 transform -translate-x-1/2">
-        <img src="/images/hero-mscc-logo.png" alt="MSCC Logo" class="mx-auto mb-2 lg:mb-4 w-[100px] lg:w-[250px]" />
-        <img src="/images/hero-devcon.png" alt="MSCC Logo" class="w-[175px] lg:w-[650px]" />
+        <img src="{{ asset('images/hero-mscc-logo.png') }}" alt="MSCC Logo" class="mx-auto mb-2 lg:mb-4 w-[100px] lg:w-[250px]" />
+        <img src="{{ asset('images/hero-devcon.png') }}" alt="MSCC Logo" class="w-[175px] lg:w-[650px]" />
         <h2 class="mt-2 font-devcon text-md lg:text-3xl text-center text-white">24, 25 & 26 July</h2>
         <p class="mt-1 font-devcon text-sm lg:text-3xl text-center text-white">Voilà Hotel, Bagatelle</p>
     </div>
