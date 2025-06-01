@@ -3,10 +3,10 @@
 @section('content')
   <div class="page--agenda" x-data="{ selectedOption: 'thursday' }">
 
-  <section class="bg-gradient-to-r from-[#9F00FF] to-[#00B0FF] pt-10 pb-5">
-      <section class="pt-5 pb-10 max-w-4xl px-3 mb-7 mt-15 mx-auto">
-        <h1 class="text-center text-shadow-lg mt-1 font-devcon text-white uppercase font-black mb-1 text-6xl">Agenda 📣</h1>
-        <p class="text-center text-white font-dm max-w-3xl text-sm sm:text-lg">Step into a world of learning, collaboration, and breakthrough ideas that will fuel your innovation and growth.</p>
+    <section class="bg-gradient-to-r from-[#9F00FF] to-[#00B0FF] pt-10 pb-5">
+      <section class="max-w-4xl px-3 mb-7 mt-15 mx-auto pt-3 pb-4 sm:pt-5 sm:pb-10">
+        <h1 class="text-center text-shadow-lg mt-1 font-devcon text-white uppercase font-black mb-1 text-3xl sm:text-6xl">Agenda 📣</h1>
+        <p class="text-center text-white font-dm max-w-3xl text-sm sm:text-lg">Step into a world of learning, collaboration, and breakthrough ideas that will fuel your innovation and growth</p>
       </section>
     </section>
 
