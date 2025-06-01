@@ -10,12 +10,12 @@
         <meta property="og:type" content="website">
         <meta property="og:locale" content="en">
         <meta name="description" content="Developers Conference 2025 — the largest gathering of software craftsman, web devs, sysadmins, designers, testers and the younger generation of aspiring professionals.">
-        <meta 
+        <meta
             property="og:description"
             content="Developers Conference 2025 — the largest gathering of software craftsman, web devs, sysadmins, designers, testers and the younger generation of aspiring professionals.">
         <meta name="keywords" content="Technology, Software Development, Linux, Open Source, Programming">
-        <meta property="og:image" content="{{ asset('images/og-image.jpg') }}">
-        
+        <meta property="og:image" content="{{ asset('images/og-image-2025.jpg') }}">
+
         <title>{{ $title }}</title>
 
         <!-- Favicon -->
