@@ -202,7 +202,7 @@
                             }
                         @endphp
                         <a
-                            class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
+                            class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-103"
                             style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}"
                             data-room="{{ $session['room'] }}"
                             href="/agenda/{{ $session['id'] }}"
