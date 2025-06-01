@@ -21,7 +21,7 @@ class AgendaSingleViewController extends Controller {
 
         if (!empty($result)) {
             $session = $result;
-            $title = 'MSCC — Agenda';
+            $title = 'MSCC | Developers Conference 2025';
 
             foreach($session as $s) {
                 $title = $title . " | " . $s['title'];

@@ -14,7 +14,7 @@ class SpeakerController extends Controller
         });
         if (!empty($result)) {
             $speaker = $result;
-            $title = 'MSCC — Speakers';
+            $title = 'MSCC | Developers Conference 2025 — Speakers';
 
             foreach($speaker as $s) {
                 $title = $title . " | " . $s['fullName'];

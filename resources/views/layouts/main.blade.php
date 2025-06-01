@@ -14,7 +14,7 @@
             property="og:description"
             content="Developers Conference 2025 — the largest gathering of software craftsman, web devs, sysadmins, designers, testers and the younger generation of aspiring professionals.">
         <meta name="keywords" content="Technology, Software Development, Linux, Open Source, Programming">
-        <meta property="og:image" content="/images/meta-image.png">
+        <meta property="og:image" content="{{ asset('images/og-image.jpg') }}">
         
         <title>{{ $title }}</title>
 

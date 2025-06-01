@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class AgendaController extends Controller
 {
   public function index() {
-		$title = 'MSCC — Agenda';
+		$title = 'MSCC | Developers Conference 2025 — Agenda';
 		$sessions = json_decode(file_get_contents(storage_path() . "/data/sessions.json"), true);
         $groupedSessions = [];
         $groupedSessionsBySlot = [];
