@@ -1,5 +1,5 @@
 <div>
-    <div class="bg-sky-500/90 backdrop-blur-sm shadow-sm fixed z-10 top-0 w-full" x-data="{ open: false}">
+    <div class="bg-sky-500/90 backdrop-blur-sm shadow-sm fixed z-99 top-0 w-full" x-data="{ open: false}">
         <div class="max-w-7xl mx-auto px-4 lg:px-4">
             <div class="flex flex-row justify-between py-2">
                 <div>

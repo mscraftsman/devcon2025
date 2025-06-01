@@ -111,6 +111,10 @@ if (! function_exists('calculatePlacementGridRow')) {
 if (! function_exists('calculatePlacementGridColumn')) {
     function calculatePlacementGridColumn($session, $rooms)
     {
+        if (!empty($session['isPlenumSession']) && $session['isPlenumSession'] === true) {
+            // Special case for plenum sessions
+            return '2 / 5';
+        }
 
         $room = stringToSlug($session['room']);
 
