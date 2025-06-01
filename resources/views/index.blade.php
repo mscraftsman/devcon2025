@@ -180,6 +180,13 @@
                 <img src="/images/sponsors/publicis.png" alt="Publicis Global Delivery" class="h-[100px]" />
             </div>
 
+            <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Silver
+                <span><img src="/images/emojis/silver.svg" class="-mt-2 h-12"></span>
+            </div>
+            <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center lg:justify-normal gap-8">
+                <img src="/images/sponsors/klanik.jpg" alt="Klanik" class="h-[50px]" />
+            </div>
+
             <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Bronze
                 <span><img src="/images/emojis/bronze.svg" class="-mt-2 h-12"></span>
             </div>
