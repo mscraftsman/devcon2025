@@ -188,29 +188,40 @@
             @endforeach
 
             @foreach($groupedSessions as $key => $value)
-              @if($key == 'Thursday')
-                @foreach($value as $key => $session)
-                  <a
-                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-109"
-                    style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
-                    data-room="{{ $session['room'] }}"
-                    href="/agenda/{{ $session['id'] }}"
-                    >
-                    <div class="bg-sky-100 rounded-md inline-block px-2 py-1 mb-2 text-sm text-sky-500 mb-1 font-regular">
-                      {{convertDateTimeToTime($session['startsAt'])}} - {{convertDateTimeToTime($session['endsAt'])}}
-                    </div>
-                    <h3 class="font-bold text-md mb-2 text-slate-700 font-devcon text-1xl">{{ $session['title'] }}</h3>
-                    <div class="speaker text-sm mt-2">
-                      @foreach($session['speakers'] as $key => $speaker)
-                        <div class="speaker--headshot flex items-center mb-1">
-                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-9 h-9 rounded-full mr-2" alt="{{$speaker['name']}}">
-                          <div class="font-regular text-slate-500">{{ $speaker['name'] }}</div>
-                        </div>
-                      @endforeach
-                    </div>
-                  </a>
-                @endforeach
-              @endif
+                @if($key == 'Thursday')
+                    @foreach($value as $key => $session)
+                        @php
+                            // Normal calculated grid-row
+                            $gridRow = calculatePlacementGridRow($session, $time_range);
+
+                            // Special case for session id 870159
+                            if ($session['id'] == 870159) {
+                                $gridColumn = '2 / 4';
+                            } else {
+                                $gridColumn = calculatePlacementGridColumn($session, $roomNames);
+                            }
+                        @endphp
+                        <a
+                            class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
+                            style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}"
+                            data-room="{{ $session['room'] }}"
+                            href="/agenda/{{ $session['id'] }}"
+                        >
+                            <div class="bg-sky-100 rounded-md inline-block px-2 py-1 mb-2 text-sm text-sky-500 mb-1 font-regular">
+                                {{ convertDateTimeToTime($session['startsAt']) }} - {{ convertDateTimeToTime($session['endsAt']) }}
+                            </div>
+                            <h3 class="font-bold text-md mb-2 text-slate-700 font-devcon text-1xl">{{ $session['title'] }}</h3>
+                            <div class="speaker text-sm mt-2">
+                                @foreach($session['speakers'] as $key => $speaker)
+                                    <div class="speaker--headshot flex items-center mb-1">
+                                        <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-9 h-9 rounded-full mr-2" alt="{{ $speaker['name'] }}">
+                                        <div class="font-regular text-slate-500">{{ $speaker['name'] }}</div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </a>
+                    @endforeach
+                @endif
             @endforeach
           </div>
         </div>
