@@ -185,7 +185,7 @@
             </div>
 
             <div class="mt-6 lg:mt-10 text-3xl lg:text-4xl font-black font-devcon flex items-center justify-center lg:justify-normal gap-2">Silver
-                <span><img src="/images/emojis/silver.svg" class="-mt-6 h-12"></span>
+                <span><img src="/images/emojis/silver.svg" class="-mt-6 h-16"></span>
             </div>
             <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center lg:justify-normal gap-8">
                 <img src="/images/sponsors/klanik.jpg" alt="Klanik" class="h-[50px]" />
