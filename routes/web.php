@@ -19,3 +19,6 @@ Route::get('/agenda/{id}', [AgendaSingleViewController::class, 'searchSessionByI
 
 Route::get('/speakers', [SpeakersController::class, 'index'])->name('speakers');
 Route::get('/speaker/{id}', [SpeakerController::class, 'searchById'])->name('speaker');
+
+// Photo Album
+Route::redirect('/photos', 'https://photos.google.com/share/AF1QipMxOy3GNTMyJAITPiw7L-Cd9GbzzFkdpH6d9JQTeL8QhlZg8vKhhDi__mfOQ6GZMQ', 301);

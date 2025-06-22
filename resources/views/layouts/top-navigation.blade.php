@@ -14,8 +14,7 @@
                 <div class="hidden lg:flex flex-row gap-3 items-center fill-gray-50 hover:fill-gray-200">
                     <a class="p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-content text-gray-50" href="/speakers">Speakers</a>
                     <a class="p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-content text-gray-50" href="/agenda">Agenda</a>
-                    <a class="hidden p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-content text-gray-50" href="https://game.mscc.mu/" target="_blank">Dodge Dodo</a>
-                    <!-- <a class="p-2 bg-[#FAEA48] transition duration-700 hover:bg-[#FAB71F] hover:ease-in-out rounded-md uppercase text-[#BF1F2E] text-sm font-bold font-button font-content" href="" target="_blank">Register</a> -->
+                    <a class="p-2 bg-[#FAEA48] transition duration-700 hover:bg-[#FAB71F] hover:ease-in-out rounded-md uppercase text-[#BF1F2E] text-sm font-bold font-button font-content" href="https://devcon2025.e-forms.mu/" target="_blank">Register</a>
                 </div>
                 <!-- Mobile Menu Button -->
                 <div class="ml-10 space-x-4 lg:hidden grid place-items-center">
@@ -41,8 +40,7 @@
                     <div class="mt-4 pb-4 flex flex-col gap-2">
                         <a class="p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-devcon text-gray-50 text-center" href="/speakers">Speakers</a>
                         <a class="p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-devcon text-gray-50 text-center" href="/agenda">Agenda</a>
-                        <a class="hidden p-2 bg-[#E83F3B] transition duration-700 hover:bg-[#BF1F2E] hover:ease-in-out rounded-md uppercase text-sm font-bold font-button font-devcon text-gray-50 text-center" href="https://game.mscc.mu" target="_blank">Dodge Dodo</a>
-                        <a class="p-2 bg-[#FAEA48] transition duration-700 hover:bg-[#FAB71F] hover:ease-in-out rounded-md uppercase text-[#BF1F2E] text-sm font-bold font-button font-devcon text-center" href="https://devcon2024.e-forms.mu/" target="_blank">Register</a>
+                        <a class="p-2 bg-[#FAEA48] transition duration-700 hover:bg-[#FAB71F] hover:ease-in-out rounded-md uppercase text-[#BF1F2E] text-sm font-bold font-button font-devcon text-center" href="https://devcon2025.e-forms.mu/" target="_blank">Register</a>
 
                         <div class="mt-4 mx-auto flex flex-row gap-3 items-center fill-gray-50 hover:fill-gray-200">
                             <a href="https://twitter.com/MSCraftsman">
