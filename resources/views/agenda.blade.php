@@ -194,13 +194,52 @@
                             // Normal calculated grid-row
                             $gridRow = calculatePlacementGridRow($session, $time_range);
 
-                            // Special case for session id 870159
-                            if ($session['id'] == 870159) {
+                            // Special case for session id 963227
+                            if ($session['id'] == 963227) {
+                                $gridColumn = '2 / 5';
+                            } else if ($session['id'] == 870159) {
                                 $gridColumn = '2 / 4';
                             } else {
                                 $gridColumn = calculatePlacementGridColumn($session, $roomNames);
                             }
                         @endphp
+
+                        {{-- Special case for session id 963227 --}}
+
+                        @if ($session['id'] == 963227)
+                        <a
+                            class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-200 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-103"
+                            style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}; position: relative; overflow: hidden;"
+                            data-room="{{ $session['room'] }}"
+                            href="/agenda/{{ $session['id'] }}"
+                        >
+                            <div class="bg-sky-100 rounded-md inline-block px-2 py-1 mb-2 text-sm text-sky-500 mb-1 font-regular">
+                                {{ convertDateTimeToTime($session['startsAt']) }} - {{ convertDateTimeToTime($session['endsAt']) }}
+                            </div>
+
+                            <div class="flex">
+                              <div class="sponsor-logo border-r-1 border-slate-300 pr-5 mr-5 mb-4">
+                                <h3 class="font-bold text-md mb-2 text-sky-400 font-content uppercase text-xs">Opening Keynote</h3>
+                                <div class="">
+                                  <img  src="{{ asset('images/sponsors/swan.png') }}" alt="" class="h-[50px]">
+                                </div>
+                              </div>
+                              <div class="session-content">
+                                <h3 class="font-bold text-md mb-2 text-slate-700 font-devcon text-1xl">🚀 {{ $session['title'] }}</h3>
+                                <div class="speaker text-sm mt-2">
+                                  @foreach($session['speakers'] as $key => $speaker)
+                                      <div class="speaker--headshot flex items-center mb-1">
+                                          <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-10 h-10 rounded-full mr-2 border-2 border-slate-400" alt="{{ $speaker['name'] }}">
+                                          <div class="font-black text-sky-400">{{ $speaker['name'] }}</div>
+                                      </div>
+                                  @endforeach
+                                </div>
+                              </div>
+                            </div>
+
+                            <img class="absolute top-0 right-0 opacity-25 rotate-320" src="{{ asset('images/sponsors/swan.png') }}" alt="">
+                        </a>
+                        @else
                         <a
                             class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-103"
                             style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}"
@@ -220,10 +259,18 @@
                                 @endforeach
                             </div>
                         </a>
+                        @endif
                     @endforeach
                 @endif
             @endforeach
           </div>
+          <div class="text-2xl font-content text-sky-300 font-black uppercase text-center">Networking hour (Invitation Only) sponsored by</div>
+          <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center mb-5">
+            <a href="https://spoonconsulting.com" target="_blank" rel="noopener noreferrer">
+              <img src="{{ asset('images/sponsors/spoonconsulting.png') }}" alt="Spoon Consulting" class="h-[100px]" />
+            </a>
+          </div>
+          <div class="text-2xl font-content text-slate-500 font-black uppercase text-center">17:30 to 20:00</div>
         </div>
 
         <div class="day--friday--agenda" id="agenda-friday" x-show="selectedOption == 'friday'">
@@ -242,9 +289,56 @@
             @foreach($groupedSessions as $key => $value)
               @if($key == 'Friday')
                 @foreach($value as $key => $session)
+                @php
+                    // Normal calculated grid-row
+                    $gridRow = calculatePlacementGridRow($session, $time_range);
+
+                    // Special case for session id 971242
+                    if ($session['id'] == 971242) {
+                        $gridColumn = '2 / 5';
+                    } else {
+                        $gridColumn = calculatePlacementGridColumn($session, $roomNames);
+                    }
+                @endphp
+
+                {{-- Special case for session id 971242 --}}
+                @if ($session['id'] == 971242)
+                <a
+                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-200 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-103"
+                    style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}; position: relative; overflow: hidden;"
+                    data-room="{{ $session['room'] }}"
+                    href="/agenda/{{ $session['id'] }}"
+                >
+                    <div class="bg-sky-100 rounded-md inline-block px-2 py-1 mb-2 text-sm text-sky-500 mb-1 font-regular">
+                        {{ convertDateTimeToTime($session['startsAt']) }} - {{ convertDateTimeToTime($session['endsAt']) }}
+                    </div>
+
+                    <div class="flex">
+                      <div class="sponsor-logo border-r-1 border-slate-300 pr-5 mr-5 mb-4">
+                        <h3 class="font-bold text-md mb-2 text-sky-400 font-content uppercase text-xs">Opening Keynote</h3>
+                        <div class="">
+                          <img  src="{{ asset('images/sponsors/google.png') }}" alt="" class="h-[50px]">
+                        </div>
+                      </div>
+                      <div class="session-content">
+                        <h3 class="font-bold text-md mb-2 text-slate-700 font-devcon text-1xl">🚀 {{ $session['title'] }}</h3>
+                        <div class="speaker text-sm mt-2">
+                          @foreach($session['speakers'] as $key => $speaker)
+                              <div class="speaker--headshot flex items-center mb-1">
+                                  <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-10 h-10 rounded-full mr-2 border-2 border-slate-400" alt="{{ $speaker['name'] }}">
+                                  <div class="font-black text-sky-400">{{ $speaker['name'] }}</div>
+                              </div>
+                          @endforeach
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <img class="absolute top-0 right-0 opacity-25 rotate-320 h-[150px]" src="{{ asset('images/sponsors/google.png') }}" alt="">
+                </a>
+                @else
                 <a
                     class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
-                    style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
+                    style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}"
                     data-room="{{ $session['room'] }}"
                     href="/agenda/{{ $session['id'] }}"
                     >
@@ -261,10 +355,19 @@
                       @endforeach
                     </div>
                   </a>
+                  @endif
                 @endforeach
               @endif
             @endforeach
           </div>
+
+          <div class="text-2xl font-content text-sky-300 font-black uppercase text-center">Speakers dinner (invitation only) sponsored by</div>
+          <div class="mt-4 max-w-4xl mx-auto flex items-center justify-center mb-5">
+            <a href="https://mscc.mu" target="_blank" rel="noopener noreferrer">
+              <img src="{{ asset('images/mscc-logo-dark.svg') }}" alt="MSCC" class="h-[70px]" />
+            </a>
+          </div>
+          <div class="text-2xl font-content text-slate-500 font-black uppercase text-center">18:00 to 22:00</div>
         </div>
 
         <div class="day--saturday--agenda" id="agenda-saturday" x-show="selectedOption == 'saturday'">
@@ -283,9 +386,56 @@
             @foreach($groupedSessions as $key => $value)
               @if($key == 'Saturday')
                 @foreach($value as $key => $session)
+                @php
+                    // Normal calculated grid-row
+                    $gridRow = calculatePlacementGridRow($session, $time_range);
+
+                    // Special case for session id 961766 || 850bd572-7a30-41f2-a3e2-9116661b3281
+                    if ($session['id'] == 961766 || $session['id'] == '850bd572-7a30-41f2-a3e2-9116661b3281') {
+                        $gridColumn = '2 / 5';
+                    } else {
+                        $gridColumn = calculatePlacementGridColumn($session, $roomNames);
+                    }
+                @endphp
+
+                {{-- Special case for session id 961766 --}}
+                @if ($session['id'] == 961766)
+                <a
+                    class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-200 border-3 border-solid hover:!bg-purple-100 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-103"
+                    style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}; position: relative; overflow: hidden;"
+                    data-room="{{ $session['room'] }}"
+                    href="/agenda/{{ $session['id'] }}"
+                >
+                    <div class="bg-sky-100 rounded-md inline-block px-2 py-1 mb-2 text-sm text-sky-500 mb-1 font-regular">
+                        {{ convertDateTimeToTime($session['startsAt']) }} - {{ convertDateTimeToTime($session['endsAt']) }}
+                    </div>
+
+                    <div class="flex">
+                      <div class="sponsor-logo border-r-1 border-slate-300 pr-5 mr-5 mb-4">
+                        <h3 class="font-bold text-md mb-2 text-sky-400 font-content uppercase text-xs">Opening Keynote</h3>
+                        <div class="">
+                          <img  src="{{ asset('images/sponsors/axiz-microsoft.png') }}" alt="" class="h-[50px]">
+                        </div>
+                      </div>
+                      <div class="session-content">
+                        <h3 class="font-bold text-md mb-2 text-slate-700 font-devcon text-1xl">🚀 {{ $session['title'] }}</h3>
+                        <div class="speaker text-sm mt-2">
+                          @foreach($session['speakers'] as $key => $speaker)
+                              <div class="speaker--headshot flex items-center mb-1">
+                                  <img src="{{ getSpeaker($speaker['id'])['profilePicture'] }}" class="w-10 h-10 rounded-full mr-2 border-2 border-slate-400" alt="{{ $speaker['name'] }}">
+                                  <div class="font-black text-sky-400">{{ $speaker['name'] }}</div>
+                              </div>
+                          @endforeach
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <img class="absolute top-0 right-0 opacity-25 rotate-320 h-[90px]" src="{{ asset('images/sponsors/axiz-microsoft.png') }}" alt="">
+                </a>
+                @else
                 <a
                     class="session__wrapper px-4 py-3 rounded-md !bg-slate-100 block mb-3 border-slate-100 border-3 border-solid hover:bg-slate-200 hover:border-[#9F00FF] hover:drop-shadow-md transition-all hover:scale-105"
-                    style="grid-row: {{ calculatePlacementGridRow($session, $time_range) }}; grid-column: {{ calculatePlacementGridColumn($session, $roomNames) }}"
+                    style="grid-row: {{ $gridRow }}; grid-column: {{ $gridColumn }}"
                     data-room="{{ $session['room'] }}"
                     href="/agenda/{{ $session['id'] }}"
                     >
@@ -302,6 +452,7 @@
                       @endforeach
                     </div>
                   </a>
+                @endif
                 @endforeach
               @endif
             @endforeach
