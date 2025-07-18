@@ -161,6 +161,36 @@
                     </div>
                 </div>
             </div>
+            <div class="bg-slate-100 p-6 rounded-lg my-10">
+                <h2 class="text-3xl lg:text-4xl font-black font-devcon mt-5">Lunch Options (At your own expense)</h2>
+                <p class="mt-2 text-lg font-regular">
+                    Meals are not included in the conference registration. If you wish to have lunch on-site, the following options are available. You will need to book and pay for your own meal.
+                </p>
+                <p class="mt-5 text-lg text-sky-400 font-bold">
+                    Option 1: Set Lunch Package – MUR 550/day
+                </p>
+                <p class="mt-0 text-lg text-slate-500">
+                    Includes veg and non-veg options
+                </p>
+                <p class="mt-2 text-lg">
+                    The menu is as follows:
+                </p>
+                <p class="mt-2 text-lg">
+                    Day 1️⃣ - Baguette + Chips + 1 Soft Drink </br>
+                    Day 2️⃣ - Wrap + Chips + 1 Soft Drink </br>
+                    Day 3️⃣ - Panini + Chips + 1 Soft Drink </br>
+                </p>
+                <p class="mt-5 text-lg text-sky-400 font-bold">
+                    Option 2: Menu du Jour (subject to availability)
+                </p>
+                <p class="mt-0 text-lg text-slate-500">
+                    Starting at MUR 385 to MUR 550 (excluding drinks)
+                </p>
+                <p class="mt-2 text-lg">
+                    Please confirm your option and order at least 72 hours at <a href="mailto:meetings@voilahotel.mu">meetings@voilahotel.mu</a> before the event so that Voilà can do the necessary.</br>                                                                                                                      
+                    Your orders should be placed directly to Voilà Hotel.
+                </p>
+            </div>
 
         </div>
 
