@@ -82,7 +82,7 @@ class AgendaController extends Controller
 					return view('agenda', compact('groupedSessions', 'title', 'cellIds', 'cellIdsFriday', 'cellIdsSaturday', 'roomNames', 'time_range', 'time_range_friday', 'time_range_saturday'));
 				}
 
-				if (empty($result)) {
+				if (empty($sessions)) {
           return response()->json(['message' => 'JSON not found'], 404);
         }
   	}
